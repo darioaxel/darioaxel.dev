@@ -1,10 +1,12 @@
 # MY WEB PROFILE DEVELOPMENT
+
 - [MY WEB PROFILE DEVELOPMENT](#my-web-profile-development)
 - [Install Nuxt 3 Minimal Starter](#install-nuxt-3-minimal-starter)
   - [Setup](#setup)
   - [Development Server](#development-server)
   - [Production](#production)
 - [Setting up content, color-mode and Tailwindcss](#setting-up-content-color-mode-and-tailwindcss)
+- [Basic directory structure creation](#basic-directory-structure-creation)
 
 
 # Install Nuxt 3 Minimal Starter
@@ -81,3 +83,6 @@ When running nuxt dev, this module will look for these two files:
 
 If they don't exist, the module will inject a basic configuration for each one so you don't have to create these files.
 
+# Basic directory structure creation
+
+In order 
