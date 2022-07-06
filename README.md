@@ -1,6 +1,10 @@
 # MY WEB PROFILE DEVELOPMENT
-1. [Nuxt 3 Setup](#nuxt-3-minimal-starter)
-2. []
+- [MY WEB PROFILE DEVELOPMENT](#my-web-profile-development)
+- [Install Nuxt 3 Minimal Starter](#install-nuxt-3-minimal-starter)
+  - [Setup](#setup)
+  - [Development Server](#development-server)
+  - [Production](#production)
+- [Setting up content, color-mode and Tailwindcss](#setting-up-content-color-mode-and-tailwindcss)
 
 
 # Install Nuxt 3 Minimal Starter
@@ -48,4 +52,32 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+# Setting up content, color-mode and Tailwindcss
+
+Let's first install the dependencies
+
+```bash
+yarn add -d @nuxtjs/color-mode @nuxtjs/tailwindcss @nuxt/content
+```
+
+And setup them inside ***nuxt.config.ts*** file:
+```javascript
+export default defineNuxtConfig({
+    buildModules: ['@nuxtjs/color-mode','@nuxtjs/tailwindcss',
+    '@nuxt/content'],
+    colorMode: {
+        classSuffix:""
+    }
+})
+```
+Create the ***tailwind.config.js*** file by running:
+```bash
+npx tailwindcss init
+```
+When running nuxt dev, this module will look for these two files:  
+
+    ./assets/css/tailwind.css  
+    ./tailwind.config.js
+
+If they don't exist, the module will inject a basic configuration for each one so you don't have to create these files.
+
