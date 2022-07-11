@@ -5,8 +5,8 @@
                 <NuxtLink to="/" ><AppDarioaxel /></NuxtLink>
             </div>
             <div id="navbar-links" class="flex w-full items-center justify-around md:w-3/12 text-themeText ">
-                <NuxtLink to="/blog" class=" p-1 md:p-2 hover-underline-animation">Blog</NuxtLink>
-                <NuxtLink to="/documentation" class=" m1 md:m-2 hover-underline-animation">Documents</NuxtLink>     
+                <NuxtLink to="/blog" class=" p-1 hover-underline-animation">Blog</NuxtLink>
+                <NuxtLink to="/documentation" class=" p-1 hover-underline-animation">Documents</NuxtLink>     
                 <AppThemeSwitcher />
             </div>   
         </div>

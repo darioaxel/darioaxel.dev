@@ -6559,7 +6559,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   _push(`</div><div id="navbar-links" class="flex w-full items-center justify-around md:w-3/12 text-themeText" data-v-dffcef8e>`)
   _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NuxtLink, {
     to: "/blog",
-    class: "p-1 md:p-2 hover-underline-animation"
+    class: "p-1 hover-underline-animation"
   }, {
     default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
@@ -6574,7 +6574,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   }, _parent))
   _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NuxtLink, {
     to: "/documentation",
-    class: "m1 md:m-2 hover-underline-animation"
+    class: "p-1 hover-underline-animation"
   }, {
     default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
