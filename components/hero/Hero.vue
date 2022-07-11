@@ -13,19 +13,20 @@
           >
             <h2 class="text-3xl font-bold mb-4 display-5">Hola y bienvenid@s!!.</h2>
             <p class="text-gray-500 mb-12">
-              Mi nombre es Darío Ureña y soy Ingeniero en Informática y,
-              actualmente estoy enfocado en la enseñanza dentro de los Ciclos Formativos de Formación Profesional. 
-              Mis principales intereses son el desarrollo web con Vue, Nuxt, JavaScript-Typescript así como todo lo relacionado
+              Mi nombre es Darío Ureña, soy Ingeniero en Informática y,
+              actualmente estoy dedicado a la enseñanza en Ciclos Formativos de Formación Profesional. 
+              Me interesa todo el desarrollo web y frameworks como Vue y Nuxt, así como todo lo relacionado
               con el backend y Raspberry Pi, entre otros 💚.
-  </p>    <p>  
-            Si queréis saber más sobre mí, puedes hacer un tour por esta web o seguirme por las redes sociales que dejo aquí bajo 👇👇
+            </p>    
+            <p>  
+              Si queréis saber más sobre mí, puedes hacer un tour por esta web o seguirme por las redes sociales que dejo aquí bajo 👇👇
             </p>           
           </div>
         </div>
 
         <div class="flex justify-center">
           <img
-            src="https://mdbootstrap.com/img/new/ecommerce/vertical/088.jpg"
+            src="../../assets/img/darioaxel.png"
             class=" w-72 shadow-lg shadow-white fancy-border-radius md:rotate-12"
             alt=""
           />

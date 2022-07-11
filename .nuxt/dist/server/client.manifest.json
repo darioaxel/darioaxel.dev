@@ -9,7 +9,8 @@
     "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css",
-    "components/app/darioaxel.vue?vue&type=style&index=0&scoped=true&lang.css"
+    "components/app/darioaxel.vue?vue&type=style&index=0&scoped=true&lang.css",
+    "components/app/NavBar.vue?vue&type=style&index=0&scoped=true&lang.css"
   ],
   "initial": [
     "@vite/client",
@@ -20,7 +21,8 @@
     "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css",
-    "components/app/darioaxel.vue?vue&type=style&index=0&scoped=true&lang.css"
+    "components/app/darioaxel.vue?vue&type=style&index=0&scoped=true&lang.css",
+    "components/app/NavBar.vue?vue&type=style&index=0&scoped=true&lang.css"
   ],
   "async": [],
   "modules": {}

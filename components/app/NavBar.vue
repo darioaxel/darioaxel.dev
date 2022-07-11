@@ -5,10 +5,34 @@
                 <NuxtLink to="/" ><AppDarioaxel /></NuxtLink>
             </div>
             <div id="navbar-links" class="flex w-full items-center justify-around md:w-3/12 text-themeText ">
-                <NuxtLink to="/blog" class=" m-1 md:m-2">Blog</NuxtLink>
-                <NuxtLink to="/documentation" class=" m1 md:m-2">Documents</NuxtLink>     
-                <!--AppThemeSwitcher /-->
+                <NuxtLink to="/blog" class=" p-1 md:p-2 hover-underline-animation">Blog</NuxtLink>
+                <NuxtLink to="/documentation" class=" m1 md:m-2 hover-underline-animation">Documents</NuxtLink>     
+                <AppThemeSwitcher />
             </div>   
         </div>
     </nav>
 </template>
+<style scoped>
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;  
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+</style>
