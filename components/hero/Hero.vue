@@ -25,7 +25,7 @@
 
         <div class="flex justify-center ">
           <img
-            src="../../assets/img/darioaxel-nobackground.png"
+            src="~/assets/img/darioaxel-nobackground.png"
             class=" w-72 bg-transparent shadow-lg shadow-white rounded-lg shadow-lg"
             alt=""
           />

@@ -1,5 +1,5 @@
 <template>
-<section class=" flex justify-center bg-themeBackground">
+<section class=" flex justify-center bg-themeBackground400">
 
    <!-- row -->
         <div class="flex flex-wrap flex-row md:w-11/12 pt-4 md:-mx-4 text-center">
