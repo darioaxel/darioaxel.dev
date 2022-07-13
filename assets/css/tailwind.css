@@ -5,17 +5,17 @@
 
 @layer base {
     :root {
-      --background: #f8f8f8;
-      --background-50:  #A489B0;
-      --background-100: #9B7DA8;
-      --background-200: #886597;
-      --background-300: #72557F;
-      --background-400: #5C4466;
-      --background-500: #35273b;
-      --background-600: #281E2C;
-      --background-700: #0A070B;
-      --background-800: #000000;
-      --background-900: #000000;
+      --background: #f8f8f8; 
+      --background-50:  #ffffff; 
+      --background-100: #fefefe;
+      --background-200: #fdfdfd;
+      --background-300: #fcfcfc;
+      --background-400: #fafafa;
+      --background-500: #f8f8f8;
+      --background-600: #dfdfdf;
+      --background-700: #bababa;
+      --background-800: #959595;
+      --background-900: #7a7a7a;
     --text: #313131;
     --primary: #62d175;
       --primary-50:  #f7fdf8;
