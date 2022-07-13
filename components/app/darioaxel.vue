@@ -1,6 +1,6 @@
 <template>
-    <div class="flex align-baseline text-themeText">
-        <div class="first-name text-4xl">darío</div><div class="second-name text-4xl">axel</div>
+    <div class="flex align-baseline ">
+        <div class="first-name text-4xl text-themePrimary">darío</div><div class="second-name text-4xl text-themeText">axel</div>
     </div>
 </template>
 <style scoped>

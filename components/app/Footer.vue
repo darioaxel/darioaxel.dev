@@ -2,7 +2,7 @@
   <footer class=" w-full flex justify-center bg-themeBackground text-themeText pb-2 md:pt-2">
     <div class=" w-full flex flex-col items-center md:w-11/12 md:flex-row md:justify-between">
       <div class=" mb-2 lg:mb-0">
-        <div>Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>
+        <div>Made with Nuxt. Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>
       </div>
       <ul class="flex items-center space-x-8">
         <li>
