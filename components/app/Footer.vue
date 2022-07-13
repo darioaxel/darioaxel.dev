@@ -3,7 +3,7 @@
     <div class=" w-full flex flex-col items-center md:w-11/12 md:flex-row md:justify-between">
       <div class=" flex flex-col  md:flex-row mb-2 lg:mb-0">
         <div class=" flex flex-row justify-center"> Made with  <div class=" text-themePrimary pl-1"> Nuxt</div>. </div>
-        <div>Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>        
+        <div class=" pl-1">Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>        
       </div>
       <ul class="flex items-center space-x-8">
         <li>

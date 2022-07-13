@@ -10,7 +10,7 @@
             class="relative block rounded-lg bg-themeBackground400 shadow-lg px-6 py-12 md:px-12 lg:-mr-14"
             style="backdrop-filter: blur(30px); z-index: 1"
           >
-            <h2 class="text-3xl font-bold mb-4 display-5">Hola y bienvenid@s!👋</h2>
+            <h2 class="text-3xl font-bold mb-4 display-5 text-gradient bg-gradient-to-r from-stone-200 to-themePrimary">Hola y bienvenid@s!👋</h2>
             <p class=" mb-12">
               Mi nombre es Darío Ureña, soy Ingeniero en Informática y,
               actualmente estoy dedicado a la enseñanza en Ciclos Formativos de Formación Profesional. 
@@ -41,5 +41,9 @@
       /* These are the KEY styles - you can add them directly to any object you want in your project */
       .fancy-border-radius {
         border-radius: 53% 47% 52% 48% / 36% 41% 59% 64%;
+      }
+      .text-gradient {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
     </style>
