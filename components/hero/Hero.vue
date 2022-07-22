@@ -2,10 +2,10 @@
   <section
     class="w-full flex flex-col justify-center items-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground hero-background-image">
 
-    <div class=" flex flex-col md:flex-row md:justify-center md:w-9/12 ">
+    <div class="ml-2 mr-2 flex flex-col md:flex-row md:justify-center sm:w-11/12 lg:w-9/12 items-center">
 
       <div
-        class=" md:w-full md:mb-20 md:mt-20 p-6 md:max-w-[45%] rounded-lg hero-blur-bg-color backdrop-blur-lg shadow-lg shadow-themePrimary ">
+        class=" mb-5 mt-5 xl:mb-20 xl:mt-20 p-6 w-full xl:max-w-[65%] rounded-lg hero-blur-bg-color backdrop-blur-lg shadow-lg shadow-themePrimary ">
         <h2 class="text-3xl font-bold mb-4 mt-4 display-5 text-gradient bg-gradient-to-r from-themeText to-themePrimary">
           Hola y bienvenid@s!👋</h2>
         <p class=" mb-4">
@@ -42,9 +42,9 @@
       </div>
 
 
-      <div class=" md:w-full md:max-w-[25%] flex justify-center m-5">
+      <div class="md:max-w-[25%] xl:max-w-[20%] m-5">
         <img src="~/assets/img/darioaxel-nobackground.png"
-          class=" w-72 hero-blur-bg-color backdrop-blur-sm shadow-lg shadow-themePrimary rounded-lg" alt="" />
+          class=" h-auto hero-blur-bg-color backdrop-blur-sm shadow-lg shadow-themePrimary rounded-lg" alt="" />
       </div>
 
 
