@@ -6,4 +6,8 @@ npm-debug.log
 .nuxt
 
 # Nuxt generate
+<<<<<<< HEAD
 dist
+=======
+dist
+>>>>>>> 6cd4ccd3e45ce477d02815399db6fd4a72c1280c
