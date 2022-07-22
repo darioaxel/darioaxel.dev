@@ -144,10 +144,14 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/pages/runtime/utils.mjs ($id_80f433aa)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
+// - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
 // - /components/hero/Hero.vue ($id_4c233d37)
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Projects.vue ($id_a977b07b)
 // - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/documentation/[...slug].vue ($id_5340a5d4)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/@nuxtjs/color-mode/dist/runtime/plugin.server.mjs ($id_a217e6ae)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
@@ -1622,7 +1626,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 
 // --------------------
 const $id_f75548e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}:root{--background:#f8f8f8;--background-50:#fff;--background-100:#fefefe;--background-200:#fdfdfd;--background-300:#fcfcfc;--background-400:#fafafa;--background-500:#f8f8f8;--background-600:#dfdfdf;--background-700:#bababa;--background-800:#959595;--background-900:#7a7a7a;--text:#313131;--primary:#62d175;--primary-50:#f7fdf8;--primary-100:#effaf1;--primary-200:#d8f4dd;--primary-300:#c0edc8;--primary-400:#91df9e;--primary-500:#62d175;--primary-600:#58bc69;--primary-700:#4a9d58;--primary-800:#3b7d46;--primary-900:#306639;--secondary:#5a5560;--tertiary:#9d8d8f;--quaternary:#9b786f}.dark{--background:#35273b;--background-50:#f5f4f5;--background-100:#ebe9eb;--background-200:#cdc9ce;--background-300:#aea9b1;--background-400:#726876;--background-500:#35273b;--background-600:#302335;--background-700:#281d2c;--background-800:#201723;--background-900:#1a131d;--text:#f0f0f0;--primary:#14a1d0;--primary-50:#f3fafd;--primary-100:#e8f6fa;--primary-200:#c4e8f3;--primary-300:#a1d9ec;--primary-400:#5bbdde;--primary-500:#14a1d0;--primary-600:#1291bb;--primary-700:#0f799c;--primary-800:#0c617d;--primary-900:#0a4f66;--secondary:#5a5560;--tertiary:#9d8d8f;--quaternary:#9b786f}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.visible{visibility:visible}.absolute{position:absolute}.relative{position:relative}.m-2{margin:.5rem}.m-5{margin:1.25rem}.mb-2{margin-bottom:.5rem}.mb-12{margin-bottom:3rem}.mb-4{margin-bottom:1rem}.mt-8{margin-top:2rem}.ml-6{margin-left:1.5rem}.mt-4{margin-top:1rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.h-6{height:1.5rem}.w-full{width:100%}.w-72{width:18rem}.max-w-full{max-width:100%}.flex-shrink{flex-shrink:1}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.justify-around{justify-content:space-around}.justify-evenly{justify-content:space-evenly}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.rounded-lg{border-radius:.5rem}.border-b{border-bottom-width:1px}.border-t-2{border-top-width:2px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-t-themePrimary{border-top-color:var(--primary)}.bg-themeBackground{background-color:var(--background)}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-themePrimary700{background-color:var(--primary-700)}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.bg-gradient-to-b{background-image:linear-gradient(to bottom,var(--tw-gradient-stops))}.from-themeText{--tw-gradient-from:var(--text);--tw-gradient-to:hsla(0,0%,100%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-transparent{--tw-gradient-from:transparent;--tw-gradient-to:transparent;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.to-themePrimary{--tw-gradient-to:var(--primary)}.to-themeBackground{--tw-gradient-to:var(--background)}.p-1{padding:.25rem}.p-6{padding:1.5rem}.p-4{padding:1rem}.px-4{padding-left:1rem;padding-right:1rem}.py-8{padding-bottom:2rem;padding-top:2rem}.px-12{padding-left:3rem;padding-right:3rem}.pb-2{padding-bottom:.5rem}.pl-1{padding-left:.25rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.align-baseline{vertical-align:baseline}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.font-semibold{font-weight:600}.font-bold{font-weight:700}.leading-normal{line-height:1.5}.text-themeText{color:var(--text)}.text-themePrimary{color:var(--primary)}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-themePrimary200{color:var(--primary-200)}.text-themePrimary900{color:var(--primary-900)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-themePrimary{--tw-shadow-color:var(--primary);--tw-shadow:var(--tw-shadow-colored)}.backdrop-blur-lg{--tw-backdrop-blur:blur(16px)}.backdrop-blur-lg,.backdrop-blur-sm{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.after\\:bg-themePrimary600:after{background-color:var(--primary-600);content:var(--tw-content)}.hover\\:-translate-y-2:hover{--tw-translate-y:-0.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:text-themePrimary900:hover{color:var(--primary-900)}.hover\\:text-themePrimary:hover{color:var(--primary)}@media (min-width:640px){.sm\\:w-1\\/2{width:50%}}@media (min-width:768px){.md\\:-mx-4{margin-left:-1rem;margin-right:-1rem}.md\\:mb-20{margin-bottom:5rem}.md\\:mt-20{margin-top:5rem}.md\\:w-11\\/12{width:91.666667%}.md\\:w-3\\/12{width:25%}.md\\:w-9\\/12{width:75%}.md\\:w-full{width:100%}.md\\:max-w-\\[45\\%\\]{max-width:45%}.md\\:max-w-\\[25\\%\\]{max-width:25%}.md\\:flex-row{flex-direction:row}.md\\:justify-center{justify-content:center}.md\\:justify-between{justify-content:space-between}.md\\:pt-2{padding-top:.5rem}.md\\:pt-6{padding-top:1.5rem}}@media (min-width:1024px){.lg\\:mb-0{margin-bottom:0}.lg\\:w-1\\/3{width:33.333333%}.lg\\:w-9\\/12{width:75%}.lg\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.lg\\:text-left{text-align:left}}";
+__vite_ssr_exports__.default = "/*! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}:root{--background:#f8f8f8;--background-50:#fff;--background-100:#fefefe;--background-200:#fdfdfd;--background-300:#fcfcfc;--background-400:#fafafa;--background-500:#f8f8f8;--background-600:#dfdfdf;--background-700:#bababa;--background-800:#959595;--background-900:#7a7a7a;--text:#313131;--primary:#62d175;--primary-50:#f7fdf8;--primary-100:#effaf1;--primary-200:#d8f4dd;--primary-300:#c0edc8;--primary-400:#91df9e;--primary-500:#62d175;--primary-600:#58bc69;--primary-700:#4a9d58;--primary-800:#3b7d46;--primary-900:#306639;--secondary:#5a5560;--tertiary:#9d8d8f;--quaternary:#9b786f}.dark{--background:#35273b;--background-50:#f5f4f5;--background-100:#ebe9eb;--background-200:#cdc9ce;--background-300:#aea9b1;--background-400:#726876;--background-500:#35273b;--background-600:#302335;--background-700:#281d2c;--background-800:#201723;--background-900:#1a131d;--text:#f0f0f0;--primary:#14a1d0;--primary-50:#f3fafd;--primary-100:#e8f6fa;--primary-200:#c4e8f3;--primary-300:#a1d9ec;--primary-400:#5bbdde;--primary-500:#14a1d0;--primary-600:#1291bb;--primary-700:#0f799c;--primary-800:#0c617d;--primary-900:#0a4f66;--secondary:#5a5560;--tertiary:#9d8d8f;--quaternary:#9b786f}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.visible{visibility:visible}.absolute{position:absolute}.relative{position:relative}.bottom-1{bottom:.25rem}.left-1{left:.25rem}.z-10{z-index:10}.m-2{margin:.5rem}.m-5{margin:1.25rem}.mb-2{margin-bottom:.5rem}.mb-12{margin-bottom:3rem}.mb-4{margin-bottom:1rem}.ml-3{margin-left:.75rem}.mt-8{margin-top:2rem}.ml-6{margin-left:1.5rem}.ml-2{margin-left:.5rem}.mr-2{margin-right:.5rem}.mb-5{margin-bottom:1.25rem}.mt-5{margin-top:1.25rem}.mt-4{margin-top:1rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.h-auto{height:auto}.h-6{height:1.5rem}.w-full{width:100%}.max-w-full{max-width:100%}.flex-shrink{flex-shrink:1}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.justify-around{justify-content:space-around}.justify-evenly{justify-content:space-evenly}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.rounded-lg{border-radius:.5rem}.border-b{border-bottom-width:1px}.border-t-2{border-top-width:2px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-t-themePrimary{border-top-color:var(--primary)}.bg-themeBackground{background-color:var(--background)}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-themePrimary700{background-color:var(--primary-700)}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.bg-gradient-to-b{background-image:linear-gradient(to bottom,var(--tw-gradient-stops))}.from-themeText{--tw-gradient-from:var(--text);--tw-gradient-to:hsla(0,0%,100%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-transparent{--tw-gradient-from:transparent;--tw-gradient-to:transparent;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.to-themePrimary{--tw-gradient-to:var(--primary)}.to-themeBackground{--tw-gradient-to:var(--background)}.p-1{padding:.25rem}.p-6{padding:1.5rem}.p-4{padding:1rem}.px-4{padding-left:1rem;padding-right:1rem}.py-8{padding-bottom:2rem;padding-top:2rem}.px-12{padding-left:3rem;padding-right:3rem}.pb-2{padding-bottom:.5rem}.pl-1{padding-left:.25rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.align-baseline{vertical-align:baseline}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.font-semibold{font-weight:600}.font-bold{font-weight:700}.leading-normal{line-height:1.5}.text-themeText{color:var(--text)}.text-themePrimary{color:var(--primary)}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-themePrimary200{color:var(--primary-200)}.text-themePrimary900{color:var(--primary-900)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-themePrimary{--tw-shadow-color:var(--primary);--tw-shadow:var(--tw-shadow-colored)}.backdrop-blur-lg{--tw-backdrop-blur:blur(16px)}.backdrop-blur-lg,.backdrop-blur-sm{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.after\\:bg-themePrimary600:after{background-color:var(--primary-600);content:var(--tw-content)}.hover\\:-translate-y-2:hover{--tw-translate-y:-0.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:text-themePrimary900:hover{color:var(--primary-900)}.hover\\:text-themePrimary:hover{color:var(--primary)}@media (min-width:640px){.sm\\:w-1\\/2{width:50%}.sm\\:w-11\\/12{width:91.666667%}}@media (min-width:768px){.md\\:-mx-4{margin-left:-1rem;margin-right:-1rem}.md\\:w-11\\/12{width:91.666667%}.md\\:w-3\\/12{width:25%}.md\\:w-1\\/12{width:8.333333%}.md\\:w-9\\/12{width:75%}.md\\:max-w-\\[25\\%\\]{max-width:25%}.md\\:flex-row{flex-direction:row}.md\\:justify-center{justify-content:center}.md\\:justify-between{justify-content:space-between}.md\\:pt-2{padding-top:.5rem}.md\\:pt-6{padding-top:1.5rem}}@media (min-width:1024px){.lg\\:mb-0{margin-bottom:0}.lg\\:w-1\\/3{width:33.333333%}.lg\\:w-9\\/12{width:75%}.lg\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.lg\\:text-left{text-align:left}}@media (min-width:1280px){.xl\\:mb-20{margin-bottom:5rem}.xl\\:mt-20{margin-top:5rem}.xl\\:max-w-\\[65\\%\\]{max-width:65%}.xl\\:max-w-\\[20\\%\\]{max-width:20%}}";
 }
 
 
@@ -1779,6 +1783,10 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 // Request: /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs
 // Parents: 
 // - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/components.plugin.mjs ($id_23026248)
+// - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
+// - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/documentation/[...slug].vue ($id_5340a5d4)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.mjs ($id_8f3d0953)
@@ -3269,10 +3277,14 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sf
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue ($id_17b6f147)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_16f58501)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_7728c86d)
+// - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
 // - /components/hero/Hero.vue ($id_4c233d37)
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Projects.vue ($id_a977b07b)
 // - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/documentation/[...slug].vue ($id_5340a5d4)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -3329,10 +3341,14 @@ import("file:///home/darioaxel/Trabajo/darioaxel.dev/node_modules/vue/server-ren
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue ($id_17b6f147)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_16f58501)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_7728c86d)
+// - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
 // - /components/hero/Hero.vue ($id_4c233d37)
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Projects.vue ($id_a977b07b)
 // - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/documentation/[...slug].vue ($id_5340a5d4)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -5389,23 +5405,169 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
+// - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
 // - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/documentation/[...slug].vue ($id_5340a5d4)
 // - /pages/index.vue ($id_cca58e97)
 // --------------------
 const $id_55318730 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/blog/[...slug].vue?macro=true");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/documentation/[...slug].vue?macro=true");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
 
 __vite_ssr_exports__.default = [
+  {
+    name: "blog-slug",
+    path: "/blog/:slug(.*)*",
+    file: "/home/darioaxel/Trabajo/darioaxel.dev/pages/blog/[...slug].vue",
+    children: [],
+    meta: __vite_ssr_import_0__.meta,
+    alias: __vite_ssr_import_0__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/blog/[...slug].vue')
+  },
+  {
+    name: "documentation-slug",
+    path: "/documentation/:slug(.*)*",
+    file: "/home/darioaxel/Trabajo/darioaxel.dev/pages/documentation/[...slug].vue",
+    children: [],
+    meta: __vite_ssr_import_1__.meta,
+    alias: __vite_ssr_import_1__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/documentation/[...slug].vue')
+  },
   {
     name: "index",
     path: "/",
     file: "/home/darioaxel/Trabajo/darioaxel.dev/pages/index.vue",
     children: [],
-    meta: __vite_ssr_import_0__.meta,
-    alias: __vite_ssr_import_0__.meta?.alias || [],
+    meta: __vite_ssr_import_2__.meta,
+    alias: __vite_ssr_import_2__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/index.vue')
   }
 ];
+}
+
+
+// --------------------
+// Request: /pages/blog/[...slug].vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
+// Dependencies: 
+// - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_12ce52f3)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_23ff3f9c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
+
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_ContentDoc = __vite_ssr_import_0__.default
+
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, __vite_ssr_import_1__.mergeProps({
+    path: _ctx.$route.params.slug ? `/blog/${_ctx.$route.params.slug[0]}` : '/blog'
+  }, _attrs), {
+    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<h2${
+          _scopeId
+        }>Blog slug (${
+          __vite_ssr_import_2__.ssrInterpolate(_ctx.$route.params.slug)
+        }) not found</h2>`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createVNode("h2", null, "Blog slug (" + __vite_ssr_import_1__.toDisplayString(_ctx.$route.params.slug) + ") not found", 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/blog/[...slug].vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/blog/[...slug].vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /pages/documentation/[...slug].vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
+// Dependencies: 
+// - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_12ce52f3)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_dd222174 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
+
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_ContentDoc = __vite_ssr_import_0__.default
+
+  _push(`<!--[--> Hey there! After `)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, {
+    path: _ctx.$route.params.slug ? `/documentation/${_ctx.$route.params.slug[0]}` : '/documentation'
+  }, {
+    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<h2${
+          _scopeId
+        }>Documentation slug (${
+          __vite_ssr_import_2__.ssrInterpolate(_ctx.$route.params.slug)
+        }) not found</h2>`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createVNode("h2", null, "Documentation slug (" + __vite_ssr_import_1__.toDisplayString(_ctx.$route.params.slug) + ") not found", 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`<!--]-->`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/documentation/[...slug].vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/documentation/[...slug].vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
 
 
@@ -5542,6 +5704,7 @@ __vite_ssr_exports__.default = ".fancy-border-radius{border-radius:53% 47% 52% 4
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /assets/img/Space-Invaders-corner-left.svg ($id_14e00950)
 // - /components/courses/Courses.vue?vue&type=style&index=0&scoped=true&lang.css ($id_08efd8d5)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
@@ -5551,31 +5714,48 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/img/Space-Invaders-corner-left.svg");
+
+
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   _push(`<section${
-    __vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex justify-center bg-themeBackground" }, _attrs))
-  } data-v-2319bf56><!-- main 9/12 container --><div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary" data-v-2319bf56><div class="ml-6 mb-2 mt-8 p-1 section-title text-xl text-themeText" data-v-2319bf56> Documentación de Ciclos Formativos </div><!-- row --><div class="flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200" data-v-2319bf56><div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="${
+    __vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "relative bg-themeBackground" }, _attrs))
+  } data-v-2319bf56><div class="flex justify-center" data-v-2319bf56><div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2" data-v-2319bf56><img${
+    __vite_ssr_import_1__.ssrRenderAttr("src", __vite_ssr_import_2__.default)
+  } data-v-2319bf56></div><!-- main 9/12 container --><div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary" data-v-2319bf56><div class="ml-6 mb-2 mt-8 p-1 section-title text-xl text-themeText" data-v-2319bf56> Documentación de Ciclos Formativos </div><!-- row --><div class="flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200" data-v-2319bf56><div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="${
     __vite_ssr_import_1__.ssrRenderStyle({"visibility":"visible","animation-duration":"1s","animation-name":"fadeInUp"})
   }" data-v-2319bf56><!-- service block --><div class="py-8 px-12 mb-12 bg-themePrimary700 rounded-lg transform transition duration-300 ease-in-out hover:-translate-y-2" data-v-2319bf56><div class="inline-block mb-4" data-v-2319bf56><!-- icon --><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" data-v-2319bf56><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" data-v-2319bf56></path></svg></div><h3 class="text-lg leading-normal mb-2 font-semibold text-themePrimary200" data-v-2319bf56>DAM</h3><p data-v-2319bf56>Módulos del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma</p></div><!-- end service block --></div><div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="${
     __vite_ssr_import_1__.ssrRenderStyle({"visibility":"visible","animation-duration":"1s","animation-delay":"0.1s","animation-name":"fadeInUp"})
-  }" data-v-2319bf56><!-- service block --><div class="py-8 px-12 mb-12 bg-themePrimary700 rounded-lg border-b transform transition duration-300 ease-in-out hover:-translate-y-2" data-v-2319bf56><div class="inline-block mb-4" data-v-2319bf56><!-- icon --><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-chat-square-dots" viewBox="0 0 16 16" data-v-2319bf56><path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" data-v-2319bf56></path><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" data-v-2319bf56></path></svg></div><h3 class="text-lg leading-normal mb-2 font-semibold" data-v-2319bf56>ASIR</h3><p data-v-2319bf56>Módulos del Ciclo Formativo de Grado Superior en Administración de Sistemas Informáticos y Redes.</p></div><!-- end service block --></div></div></div></section>`)
+  }" data-v-2319bf56><!-- service block --><div class="py-8 px-12 mb-12 bg-themePrimary700 rounded-lg border-b transform transition duration-300 ease-in-out hover:-translate-y-2" data-v-2319bf56><div class="inline-block mb-4" data-v-2319bf56><!-- icon --><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-chat-square-dots" viewBox="0 0 16 16" data-v-2319bf56><path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" data-v-2319bf56></path><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" data-v-2319bf56></path></svg></div><h3 class="text-lg leading-normal mb-2 font-semibold" data-v-2319bf56>ASIR</h3><p data-v-2319bf56>Módulos del Ciclo Formativo de Grado Superior en Administración de Sistemas Informáticos y Redes.</p></div><!-- end service block --></div></div></div></div></section>`)
 }
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/courses/Courses.vue?vue&type=style&index=0&scoped=true&lang.css");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/courses/Courses.vue?vue&type=style&index=0&scoped=true&lang.css");
 
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/courses/Courses.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-2319bf56"],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/components/courses/Courses.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-2319bf56"],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/components/courses/Courses.vue"]]);
+}
+
+
+// --------------------
+// Request: /assets/img/Space-Invaders-corner-left.svg
+// Parents: 
+// - /components/courses/Courses.vue ($id_fc3dd28e)
+// Dependencies: 
+
+// --------------------
+const $id_14e00950 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/_nuxt/assets/img/Space-Invaders-corner-left.svg";
 }
 
 
@@ -5610,7 +5790,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<section${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex justify-center bg-themeBackground" }, _attrs))} data-v-1a2e6764><!-- main 9/12 container --><div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary" data-v-1a2e6764><div class="ml-6 mb-2 mt-8 p-1 section-title text-xl text-themeText" data-v-1a2e6764> Mis proyectos </div><div class="flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200" data-v-1a2e6764></div></div></section>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "relative bg-themeBackground" }, _attrs))} data-v-1a2e6764><section class="flex justify-center" data-v-1a2e6764><!-- main 9/12 container --><div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary" data-v-1a2e6764><div class="ml-6 mb-2 mt-8 p-1 section-title text-xl text-themeText" data-v-1a2e6764> Mis proyectos </div><div class="flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200" data-v-1a2e6764></div></div></section></div>`)
 }
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/projects/Projects.vue?vue&type=style&index=0&scoped=true&lang.css");
@@ -5639,6 +5819,122 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // --------------------
 const $id_f3ae7b23 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap\");.section-title[data-v-1a2e6764]{font-family:\"Arimo\",sans-serif;font-weight:400}";
+}
+
+
+// --------------------
+// Request: /pages/blog/[...slug].vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
+// Dependencies: 
+// - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_12ce52f3)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_b8f35669 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
+
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_ContentDoc = __vite_ssr_import_0__.default
+
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, __vite_ssr_import_1__.mergeProps({
+    path: _ctx.$route.params.slug ? `/blog/${_ctx.$route.params.slug[0]}` : '/blog'
+  }, _attrs), {
+    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<h2${
+          _scopeId
+        }>Blog slug (${
+          __vite_ssr_import_2__.ssrInterpolate(_ctx.$route.params.slug)
+        }) not found</h2>`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createVNode("h2", null, "Blog slug (" + __vite_ssr_import_1__.toDisplayString(_ctx.$route.params.slug) + ") not found", 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/blog/[...slug].vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/blog/[...slug].vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/documentation/[...slug].vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
+// Dependencies: 
+// - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_12ce52f3)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_5340a5d4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
+
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_ContentDoc = __vite_ssr_import_0__.default
+
+  _push(`<!--[--> Hey there! After `)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, {
+    path: _ctx.$route.params.slug ? `/documentation/${_ctx.$route.params.slug[0]}` : '/documentation'
+  }, {
+    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<h2${
+          _scopeId
+        }>Documentation slug (${
+          __vite_ssr_import_2__.ssrInterpolate(_ctx.$route.params.slug)
+        }) not found</h2>`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createVNode("h2", null, "Documentation slug (" + __vite_ssr_import_1__.toDisplayString(_ctx.$route.params.slug) + ") not found", 1 /* TEXT */)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`<!--]-->`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/documentation/[...slug].vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/documentation/[...slug].vue"]]);
 }
 
 
@@ -7018,14 +7314,19 @@ const __modules__ = {
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_80f433aa,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_69c52686,
   "/@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs": $id_55318730,
+  "/pages/blog/[...slug].vue?macro=true": $id_23ff3f9c,
+  "/pages/documentation/[...slug].vue?macro=true": $id_dd222174,
   "/pages/index.vue?macro=true": $id_5dd70240,
   "/components/hero/Hero.vue": $id_4c233d37,
   "/assets/img/darioaxel-nobackground.png": $id_8e44c1f1,
   "/components/hero/Hero.vue?vue&type=style&index=0&lang.css": $id_7ddead21,
   "/components/courses/Courses.vue": $id_fc3dd28e,
+  "/assets/img/Space-Invaders-corner-left.svg": $id_14e00950,
   "/components/courses/Courses.vue?vue&type=style&index=0&scoped=true&lang.css": $id_08efd8d5,
   "/components/projects/Projects.vue": $id_a977b07b,
   "/components/projects/Projects.vue?vue&type=style&index=0&scoped=true&lang.css": $id_f3ae7b23,
+  "/pages/blog/[...slug].vue": $id_b8f35669,
+  "/pages/documentation/[...slug].vue": $id_5340a5d4,
   "/pages/index.vue": $id_cca58e97,
   "/@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/router.options.mjs": $id_9665af82,
   "/@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/middleware.mjs": $id_0e4841f9,

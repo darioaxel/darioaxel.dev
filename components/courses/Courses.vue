@@ -1,5 +1,9 @@
 <template>
-<section class=" flex justify-center bg-themeBackground">
+<section class="relative bg-themeBackground">
+    <div class="flex justify-center">
+        <div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
+            <img src="~/assets/img/Space-Invaders-corner-left.svg">
+        </div>
     <!-- main 9/12 container -->
     <div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary">
         
@@ -41,6 +45,7 @@
                 </div>
                 <!-- end service block -->
             </div>           
+        </div>
         </div>
         </div>
 </section>
