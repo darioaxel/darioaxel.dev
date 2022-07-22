@@ -8,6 +8,7 @@ declare module 'vue' {
     'CoursesCourseCard': typeof import("../components/courses/CourseCard.vue")['default'],
     'Courses': typeof import("../components/courses/Courses.vue")['default'],
     'Hero': typeof import("../components/hero/Hero.vue")['default'],
+    'Projects': typeof import("../components/projects/Projects.vue")['default'],
     'ContentDoc': typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs")['default'],
     'ContentList': typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs")['default'],
     'ContentNavigation': typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs")['default'],
@@ -53,6 +54,7 @@ declare module 'vue' {
     'LazyCoursesCourseCard': typeof import("../components/courses/CourseCard.vue")['default'],
     'LazyCourses': typeof import("../components/courses/Courses.vue")['default'],
     'LazyHero': typeof import("../components/hero/Hero.vue")['default'],
+    'LazyProjects': typeof import("../components/projects/Projects.vue")['default'],
     'LazyContentDoc': typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs")['default'],
     'LazyContentList': typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs")['default'],
     'LazyContentNavigation': typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs")['default'],
@@ -100,6 +102,7 @@ export const AppDarioaxel: typeof import("../components/app/darioaxel.vue")['def
 export const CoursesCourseCard: typeof import("../components/courses/CourseCard.vue")['default']
 export const Courses: typeof import("../components/courses/Courses.vue")['default']
 export const Hero: typeof import("../components/hero/Hero.vue")['default']
+export const Projects: typeof import("../components/projects/Projects.vue")['default']
 export const ContentDoc: typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs")['default']
 export const ContentList: typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs")['default']
 export const ContentNavigation: typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs")['default']
@@ -145,6 +148,7 @@ export const LazyAppDarioaxel: typeof import("../components/app/darioaxel.vue")[
 export const LazyCoursesCourseCard: typeof import("../components/courses/CourseCard.vue")['default']
 export const LazyCourses: typeof import("../components/courses/Courses.vue")['default']
 export const LazyHero: typeof import("../components/hero/Hero.vue")['default']
+export const LazyProjects: typeof import("../components/projects/Projects.vue")['default']
 export const LazyContentDoc: typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs")['default']
 export const LazyContentList: typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs")['default']
 export const LazyContentNavigation: typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs")['default']

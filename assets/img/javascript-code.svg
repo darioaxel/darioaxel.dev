@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="169.91882mm"
+   height="101.51503mm"
+   viewBox="0 0 169.91882 101.51503"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(-7.1002526,-34.491749)">
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:0.75;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="7.1002526"
+       y="39.48003"
+       id="text12610"><tspan
+         id="tspan12608"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff8080;stroke-width:0.264583"
+         x="7.1002526"
+         y="39.48003">&lt;<tspan
+   style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff8080"
+   id="tspan12794">script</tspan> <tspan
+   style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Light Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c83737"
+   id="tspan12810">setup</tspan><tspan
+   style="fill:#c83737"
+   id="tspan12820"> </tspan><tspan
+   style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Light Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c83737"
+   id="tspan12808">lang</tspan>=&quot;ts&quot;&gt;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.1002526"
+         y="47.417503"
+         id="tspan12612">  <tspan
+   style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Light Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5f8dd3"
+   id="tspan12806">const</tspan> <tspan
+   style="fill:#5fd3bc"
+   id="tspan12848">{ count }</tspan> = <tspan
+   style="fill:#ffd42a"
+   id="tspan12818">defineProps</tspan>&lt;{</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.1002526"
+         y="55.35498"
+         id="tspan12614">    <tspan
+   style="fill:#5fd3bc"
+   id="tspan12840">count</tspan>: <tspan
+   style="fill:#ff7f2a"
+   id="tspan12852">number,</tspan></tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.1002526"
+         y="63.292454"
+         id="tspan12616">  }&gt;()</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.1002526"
+         y="71.229927"
+         id="tspan12618">  <tspan
+   style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Light Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5f8dd3"
+   id="tspan12804">const</tspan> <tspan
+   style="fill:#5fd3bc"
+   id="tspan12838">doubled</tspan> =<tspan
+   style="fill:#ff6600"
+   id="tspan12850"> $computed(</tspan><tspan
+   style="fill:#80b3ff"
+   id="tspan12836">() =&gt; count * 2</tspan>)</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff8080;stroke-width:0.264583"
+         x="7.1002526"
+         y="79.167404"
+         id="tspan12620">&lt;/script&gt;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.1002526"
+         y="87.104881"
+         id="tspan12622" /><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff8080;stroke-width:0.264583"
+         x="7.1002526"
+         y="95.042351"
+         id="tspan12624">&lt;template&gt;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.1002526"
+         y="102.97983"
+         id="tspan12626">  <tspan
+   style="fill:#ffd42a"
+   id="tspan12832">&lt;div </tspan><tspan
+   style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Light Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5f8dd3"
+   id="tspan12802">class</tspan>=<tspan
+   style="fill:#ffd42a"
+   id="tspan12834">&quot;pb2&quot;&gt;</tspan></tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.1002526"
+         y="110.9173"
+         id="tspan12628">    <tspan
+   style="fill:#37c837"
+   id="tspan12812">Count</tspan> &lt;b&gt;<tspan
+   style="fill:#5fd3bc"
+   id="tspan12844">{{ count }}</tspan>&lt;/b&gt;&lt;br&gt;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.1002526"
+         y="118.85477"
+         id="tspan12630">    <tspan
+   style="fill:#37c837"
+   id="tspan12814">Doubled</tspan> &lt;b&gt;<tspan
+   style="fill:#5fd3bc"
+   id="tspan12846">{{ doubled }}</tspan>&lt;/b&gt;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.1002526"
+         y="126.79225"
+         id="tspan12632">  <tspan
+   style="fill:#ffd42a"
+   id="tspan12830">&lt;/div&gt;</tspan></tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff8080;stroke-width:0.264583"
+         x="7.1002526"
+         y="134.72972"
+         id="tspan12634">&lt;/template&gt;</tspan></text>
+  </g>
+</svg>
