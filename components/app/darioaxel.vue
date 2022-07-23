@@ -4,7 +4,7 @@
         <div class="first-name text-4xl text-themePrimary">darío</div>
         <div class="second-name text-4xl text-themeText">axel</div>
     </div>
-    <div class=" pl-2  ">
+    <div class=" ml-2">
        
 <svg
    width="40px"
