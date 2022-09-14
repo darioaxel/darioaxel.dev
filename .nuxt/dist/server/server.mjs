@@ -145,13 +145,18 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/pages/runtime/utils.mjs ($id_80f433aa)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
 // - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /components/documentation/Navigation.vue ($id_589a4eca)
+// - /pages/blogWall.vue?macro=true ($id_1647e0eb)
 // - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
+// - /pages/documentationMain.vue?macro=true ($id_92483506)
 // - /components/hero/Hero.vue ($id_4c233d37)
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Projects.vue ($id_a977b07b)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/blogWall.vue ($id_fea21406)
 // - /pages/documentation/[...slug].vue ($id_5340a5d4)
+// - /pages/documentationMain.vue ($id_b8ca6822)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/@nuxtjs/color-mode/dist/runtime/plugin.server.mjs ($id_a217e6ae)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
@@ -279,6 +284,8 @@ import("file:///home/darioaxel/Trabajo/darioaxel.dev/node_modules/ufo/dist/index
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
+// - /pages/blogWall.vue?macro=true ($id_1647e0eb)
+// - /pages/blogWall.vue ($id_fea21406)
 // - /node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs ($id_575fe152)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
@@ -1413,6 +1420,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue ($id_9c1df7ff)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue ($id_f86082f5)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue ($id_7f627a67)
+// - /components/documentation/Navigation.vue ($id_589a4eca)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /components/app/NavBar.vue ($id_c8e30905)
 // Dependencies: 
@@ -2625,6 +2633,10 @@ Object.defineProperty(__vite_ssr_exports__, "useColorMode", { enumerable: true, 
 // Request: /node_modules/@nuxt/content/dist/runtime/composables/query.mjs
 // Parents: 
 // - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/imports.mjs ($id_4b1cd4e0)
+// - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /pages/blogWall.vue?macro=true ($id_1647e0eb)
+// - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/blogWall.vue ($id_fea21406)
 // Dependencies: 
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // - /node_modules/ohash/dist/index.mjs ($id_b1b82cf3)
@@ -2957,6 +2969,8 @@ Object.defineProperty(__vite_ssr_exports__, "flatUnwrap", { enumerable: true, co
 // Request: /node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs
 // Parents: 
 // - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/imports.mjs ($id_4b1cd4e0)
+// - /pages/blogWall.vue?macro=true ($id_1647e0eb)
+// - /pages/blogWall.vue ($id_fea21406)
 // Dependencies: 
 // - /node_modules/ohash/dist/index.mjs ($id_b1b82cf3)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
@@ -3278,12 +3292,15 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sf
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_16f58501)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_7728c86d)
 // - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /components/documentation/Navigation.vue ($id_589a4eca)
+// - /pages/blogWall.vue?macro=true ($id_1647e0eb)
 // - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
 // - /components/hero/Hero.vue ($id_4c233d37)
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Projects.vue ($id_a977b07b)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/blogWall.vue ($id_fea21406)
 // - /pages/documentation/[...slug].vue ($id_5340a5d4)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
@@ -3342,13 +3359,18 @@ import("file:///home/darioaxel/Trabajo/darioaxel.dev/node_modules/vue/server-ren
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue ($id_16f58501)
 // - /node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue ($id_7728c86d)
 // - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /components/documentation/Navigation.vue ($id_589a4eca)
+// - /pages/blogWall.vue?macro=true ($id_1647e0eb)
 // - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
+// - /pages/documentationMain.vue?macro=true ($id_92483506)
 // - /components/hero/Hero.vue ($id_4c233d37)
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Projects.vue ($id_a977b07b)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/blogWall.vue ($id_fea21406)
 // - /pages/documentation/[...slug].vue ($id_5340a5d4)
+// - /pages/documentationMain.vue ($id_b8ca6822)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -5406,18 +5428,26 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 // - /pages/blog/[...slug].vue?macro=true ($id_23ff3f9c)
+// - /pages/blogWall.vue?macro=true ($id_1647e0eb)
 // - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
+// - /pages/documentationMain.vue?macro=true ($id_92483506)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/blog/[...slug].vue ($id_b8f35669)
+// - /pages/blogWall.vue ($id_fea21406)
 // - /pages/documentation/[...slug].vue ($id_5340a5d4)
+// - /pages/documentationMain.vue ($id_b8ca6822)
 // - /pages/index.vue ($id_cca58e97)
 // --------------------
 const $id_55318730 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/blog/[...slug].vue?macro=true");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/documentation/[...slug].vue?macro=true");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/blogWall.vue?macro=true");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/pages/documentation/[...slug].vue?macro=true");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/pages/documentationMain.vue?macro=true");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
 
 __vite_ssr_exports__.default = [
   {
@@ -5430,21 +5460,39 @@ __vite_ssr_exports__.default = [
     component: () => __vite_ssr_dynamic_import__('/pages/blog/[...slug].vue')
   },
   {
+    name: "blogWall",
+    path: "/blogWall",
+    file: "/home/darioaxel/Trabajo/darioaxel.dev/pages/blogWall.vue",
+    children: [],
+    meta: __vite_ssr_import_1__.meta,
+    alias: __vite_ssr_import_1__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/blogWall.vue')
+  },
+  {
     name: "documentation-slug",
     path: "/documentation/:slug(.*)*",
     file: "/home/darioaxel/Trabajo/darioaxel.dev/pages/documentation/[...slug].vue",
     children: [],
-    meta: __vite_ssr_import_1__.meta,
-    alias: __vite_ssr_import_1__.meta?.alias || [],
+    meta: __vite_ssr_import_2__.meta,
+    alias: __vite_ssr_import_2__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/documentation/[...slug].vue')
+  },
+  {
+    name: "documentationMain",
+    path: "/documentationMain",
+    file: "/home/darioaxel/Trabajo/darioaxel.dev/pages/documentationMain.vue",
+    children: [],
+    meta: __vite_ssr_import_3__.meta,
+    alias: __vite_ssr_import_3__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/documentationMain.vue')
   },
   {
     name: "index",
     path: "/",
     file: "/home/darioaxel/Trabajo/darioaxel.dev/pages/index.vue",
     children: [],
-    meta: __vite_ssr_import_2__.meta,
-    alias: __vite_ssr_import_2__.meta?.alias || [],
+    meta: __vite_ssr_import_4__.meta,
+    alias: __vite_ssr_import_4__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/index.vue')
   }
 ];
@@ -5457,6 +5505,7 @@ __vite_ssr_exports__.default = [
 // - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
 // Dependencies: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_12ce52f3)
+// - /node_modules/@nuxt/content/dist/runtime/composables/query.mjs ($id_47535763)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
@@ -5464,49 +5513,240 @@ __vite_ssr_exports__.default = [
 const $id_23ff3f9c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
 
-const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/query.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+const _sfc_main = {
+  __name: '[...slug]',
+  async setup(__props, { expose }) {
+  expose();
+
+let __temp, __restore
+
+  const docs = (
+  ([__temp,__restore] = __vite_ssr_import_2__.withAsyncContext(() => __vite_ssr_import_1__.queryContent('/blog'))),
+  __temp = await __temp,
+  __restore(),
+  __temp
+);
+
+
+const __returned__ = { docs }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_ContentDoc = __vite_ssr_import_0__.default
 
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, __vite_ssr_import_1__.mergeProps({
+  _push(`<!--[-->${__vite_ssr_import_4__.ssrInterpolate($setup.docs)} y ahora con la prueba `)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_ContentDoc, {
     path: _ctx.$route.params.slug ? `/blog/${_ctx.$route.params.slug[0]}` : '/blog'
-  }, _attrs), {
-    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+  }, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<h2${
-          _scopeId
-        }>Blog slug (${
-          __vite_ssr_import_2__.ssrInterpolate(_ctx.$route.params.slug)
-        }) not found</h2>`)
+        _push(`<!-- template #not-found>
+      <h2>Blog slug ({{ \$route.params.slug }}) not found</h2>
+    </template -->`)
       } else {
         return [
-          __vite_ssr_import_1__.createVNode("h2", null, "Blog slug (" + __vite_ssr_import_1__.toDisplayString(_ctx.$route.params.slug) + ") not found", 1 /* TEXT */)
+          __vite_ssr_import_3__.createCommentVNode(" template #not-found>\n      <h2>Blog slug ({{ $route.params.slug }}) not found</h2>\n    </template ")
         ]
       }
     }),
     _: 1 /* STABLE */
   }, _parent))
+  _push(`<!--]-->`)
 }
 
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/blog/[...slug].vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/blog/[...slug].vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/blog/[...slug].vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /pages/blogWall.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
+// Dependencies: 
+// - /components/documentation/Navigation.vue ($id_589a4eca)
+// - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
+// - /node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs ($id_e209d000)
+// - /node_modules/@nuxt/content/dist/runtime/composables/query.mjs ($id_47535763)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_1647e0eb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/documentation/Navigation.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/query.mjs");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+
+const _sfc_main = {
+  __name: 'blogWall',
+  async setup(__props, { expose }) {
+  expose();
+
+let __temp, __restore
+
+    const { data: navigation } = (
+  ([__temp,__restore] = __vite_ssr_import_4__.withAsyncContext(() => __vite_ssr_import_1__.useAsyncData('navigation', () => {
+        return __vite_ssr_import_2__.fetchContentNavigation(__vite_ssr_import_3__.queryContent("/documentation"))
+    }))),
+  __temp = await __temp,
+  __restore(),
+  __temp
+)
+
+const __returned__ = { navigation }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_DocumentationNavigation = __vite_ssr_import_0__.default
+
+  _push(__vite_ssr_import_6__.ssrRenderComponent(_component_DocumentationNavigation, __vite_ssr_import_5__.mergeProps({ "navigation-tree": $setup.navigation }, _attrs), null, _parent))
+}
+
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_7__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/blogWall.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/blogWall.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/documentation/Navigation.vue
+// Parents: 
+// - /pages/blogWall.vue?macro=true ($id_1647e0eb)
+// - /components/documentation/Navigation.vue ($id_589a4eca)
+// - /pages/blogWall.vue ($id_fea21406)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
+// - /components/documentation/Navigation.vue ($id_589a4eca)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_589a4eca = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/documentation/Navigation.vue");
+
+const _sfc_main = {
+  __name: 'Navigation',
+  props: {
+        navigationTree: {
+            type: Array,
+            default:() =>[ ]
+        }
+    },
+  setup(__props, { expose }) {
+  expose();
+
+    
+
+const __returned__ = {  }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLink = __vite_ssr_import_0__.default
+  const _component_DocumentationNavigation = __vite_ssr_import_1__.default
+
+  _push(`<!--[-->${__vite_ssr_import_3__.ssrInterpolate($props.navigationTree)} <ul class="navigation"><!--[-->`)
+  __vite_ssr_import_3__.ssrRenderList($props.navigationTree, (item, index) => {
+    _push(`<li>`)
+    _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLink, {
+      to: item._path
+    }, {
+      default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+        if (_push) {
+          _push(`${__vite_ssr_import_3__.ssrInterpolate(item.title)}`)
+        } else {
+          return [
+            __vite_ssr_import_2__.createTextVNode(__vite_ssr_import_2__.toDisplayString(item.title), 1 /* TEXT */)
+          ]
+        }
+      }),
+      _: 2 /* DYNAMIC */
+    }, _parent))
+    if (item.children) {
+      _push(__vite_ssr_import_3__.ssrRenderComponent(_component_DocumentationNavigation, {
+        "navigation-tree": item.children,
+        class: "sub-navigation"
+      }, null, _parent))
+    } else {
+      _push(`<!---->`)
+    }
+    _push(`</li>`)
+  })
+  _push(`<!--]--></ul><!--]-->`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/documentation/Navigation.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/components/documentation/Navigation.vue"]]);
 }
 
 
@@ -5536,16 +5776,14 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, {
     path: _ctx.$route.params.slug ? `/documentation/${_ctx.$route.params.slug[0]}` : '/documentation'
   }, {
-    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<h2${
-          _scopeId
-        }>Documentation slug (${
-          __vite_ssr_import_2__.ssrInterpolate(_ctx.$route.params.slug)
-        }) not found</h2>`)
+        _push(`<!-- template #not-found>
+      <h2>Blog slug ({{ \$route.params.slug }}) not found</h2>
+    </template -->`)
       } else {
         return [
-          __vite_ssr_import_1__.createVNode("h2", null, "Documentation slug (" + __vite_ssr_import_1__.toDisplayString(_ctx.$route.params.slug) + ") not found", 1 /* TEXT */)
+          __vite_ssr_import_1__.createCommentVNode(" template #not-found>\n      <h2>Blog slug ({{ $route.params.slug }}) not found</h2>\n    </template ")
         ]
       }
     }),
@@ -5566,6 +5804,38 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/documentation/[...slug].vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /pages/documentationMain.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_92483506 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(` Hola! Soy documentationWall `)
+}
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/documentationMain.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/documentationMain.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5828,6 +6098,7 @@ __vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?
 // - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
 // Dependencies: 
 // - /node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs ($id_12ce52f3)
+// - /node_modules/@nuxt/content/dist/runtime/composables/query.mjs ($id_47535763)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
@@ -5835,47 +6106,145 @@ __vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?
 const $id_b8f35669 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.mjs");
 
-const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/query.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+const _sfc_main = {
+  __name: '[...slug]',
+  async setup(__props, { expose }) {
+  expose();
+
+let __temp, __restore
+
+  const docs = (
+  ([__temp,__restore] = __vite_ssr_import_2__.withAsyncContext(() => __vite_ssr_import_1__.queryContent('/blog'))),
+  __temp = await __temp,
+  __restore(),
+  __temp
+);
+
+
+const __returned__ = { docs }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_ContentDoc = __vite_ssr_import_0__.default
 
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, __vite_ssr_import_1__.mergeProps({
+  _push(`<!--[-->${__vite_ssr_import_4__.ssrInterpolate($setup.docs)} y ahora con la prueba `)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_ContentDoc, {
     path: _ctx.$route.params.slug ? `/blog/${_ctx.$route.params.slug[0]}` : '/blog'
-  }, _attrs), {
-    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+  }, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<h2${
-          _scopeId
-        }>Blog slug (${
-          __vite_ssr_import_2__.ssrInterpolate(_ctx.$route.params.slug)
-        }) not found</h2>`)
+        _push(`<!-- template #not-found>
+      <h2>Blog slug ({{ \$route.params.slug }}) not found</h2>
+    </template -->`)
       } else {
         return [
-          __vite_ssr_import_1__.createVNode("h2", null, "Blog slug (" + __vite_ssr_import_1__.toDisplayString(_ctx.$route.params.slug) + ") not found", 1 /* TEXT */)
+          __vite_ssr_import_3__.createCommentVNode(" template #not-found>\n      <h2>Blog slug ({{ $route.params.slug }}) not found</h2>\n    </template ")
         ]
       }
     }),
     _: 1 /* STABLE */
   }, _parent))
+  _push(`<!--]-->`)
 }
 
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/blog/[...slug].vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/blog/[...slug].vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/blog/[...slug].vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/blogWall.vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
+// Dependencies: 
+// - /components/documentation/Navigation.vue ($id_589a4eca)
+// - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
+// - /node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs ($id_e209d000)
+// - /node_modules/@nuxt/content/dist/runtime/composables/query.mjs ($id_47535763)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_fea21406 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/documentation/Navigation.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/query.mjs");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+
+const _sfc_main = {
+  __name: 'blogWall',
+  async setup(__props, { expose }) {
+  expose();
+
+let __temp, __restore
+
+    const { data: navigation } = (
+  ([__temp,__restore] = __vite_ssr_import_4__.withAsyncContext(() => __vite_ssr_import_1__.useAsyncData('navigation', () => {
+        return __vite_ssr_import_2__.fetchContentNavigation(__vite_ssr_import_3__.queryContent("/documentation"))
+    }))),
+  __temp = await __temp,
+  __restore(),
+  __temp
+)
+
+const __returned__ = { navigation }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_DocumentationNavigation = __vite_ssr_import_0__.default
+
+  _push(__vite_ssr_import_6__.ssrRenderComponent(_component_DocumentationNavigation, __vite_ssr_import_5__.mergeProps({ "navigation-tree": $setup.navigation }, _attrs), null, _parent))
+}
+
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_7__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/blogWall.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/blogWall.vue"]]);
 }
 
 
@@ -5905,16 +6274,14 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ContentDoc, {
     path: _ctx.$route.params.slug ? `/documentation/${_ctx.$route.params.slug[0]}` : '/documentation'
   }, {
-    "not-found": __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<h2${
-          _scopeId
-        }>Documentation slug (${
-          __vite_ssr_import_2__.ssrInterpolate(_ctx.$route.params.slug)
-        }) not found</h2>`)
+        _push(`<!-- template #not-found>
+      <h2>Blog slug ({{ \$route.params.slug }}) not found</h2>
+    </template -->`)
       } else {
         return [
-          __vite_ssr_import_1__.createVNode("h2", null, "Documentation slug (" + __vite_ssr_import_1__.toDisplayString(_ctx.$route.params.slug) + ") not found", 1 /* TEXT */)
+          __vite_ssr_import_1__.createCommentVNode(" template #not-found>\n      <h2>Blog slug ({{ $route.params.slug }}) not found</h2>\n    </template ")
         ]
       }
     }),
@@ -5935,6 +6302,36 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/documentation/[...slug].vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/documentationMain.vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs ($id_55318730)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_b8ca6822 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(` Hola! Soy documentationWall `)
+}
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/documentationMain.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/documentationMain.vue"]]);
 }
 
 
@@ -7008,7 +7405,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   }, _parent))
   _push(`</div><div id="navbar-links" class="flex w-full items-center justify-around md:w-3/12 text-themePrimary text-xl" data-v-dffcef8e>`)
   _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NuxtLink, {
-    to: "/blog",
+    to: "/blogwall",
     class: "p-1 after:bg-themePrimary600 hover-underline-animation hover:text-themePrimary900"
   }, {
     default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
@@ -7023,7 +7420,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
     _: 1 /* STABLE */
   }, _parent))
   _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NuxtLink, {
-    to: "/documentation",
+    to: "/documentationmain",
     class: "p-1 after:bg-themePrimary600 hover-underline-animation hover:text-themePrimary900"
   }, {
     default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
@@ -7321,7 +7718,10 @@ const __modules__ = {
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_69c52686,
   "/@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs": $id_55318730,
   "/pages/blog/[...slug].vue?macro=true": $id_23ff3f9c,
+  "/pages/blogWall.vue?macro=true": $id_1647e0eb,
+  "/components/documentation/Navigation.vue": $id_589a4eca,
   "/pages/documentation/[...slug].vue?macro=true": $id_dd222174,
+  "/pages/documentationMain.vue?macro=true": $id_92483506,
   "/pages/index.vue?macro=true": $id_5dd70240,
   "/components/hero/Hero.vue": $id_4c233d37,
   "/assets/img/darioaxel-nobackground.png": $id_8e44c1f1,
@@ -7332,7 +7732,9 @@ const __modules__ = {
   "/components/projects/Projects.vue": $id_a977b07b,
   "/components/projects/Projects.vue?vue&type=style&index=0&scoped=true&lang.css": $id_f3ae7b23,
   "/pages/blog/[...slug].vue": $id_b8f35669,
+  "/pages/blogWall.vue": $id_fea21406,
   "/pages/documentation/[...slug].vue": $id_5340a5d4,
+  "/pages/documentationMain.vue": $id_b8ca6822,
   "/pages/index.vue": $id_cca58e97,
   "/@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/router.options.mjs": $id_9665af82,
   "/@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/middleware.mjs": $id_0e4841f9,

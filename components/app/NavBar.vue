@@ -5,8 +5,8 @@
                 <NuxtLink to="/" ><AppDarioaxel /></NuxtLink>
             </div>
             <div id="navbar-links" class="flex w-full items-center justify-around md:w-3/12 text-themePrimary text-xl ">
-                <NuxtLink to="/blog" class=" p-1 after:bg-themePrimary600 hover-underline-animation hover:text-themePrimary900 ">Blog</NuxtLink>
-                <NuxtLink to="/documentation" class=" p-1 after:bg-themePrimary600 hover-underline-animation hover:text-themePrimary900 ">Documents</NuxtLink>     
+                <NuxtLink to="/blogwall" class=" p-1 after:bg-themePrimary600 hover-underline-animation hover:text-themePrimary900 ">Blog</NuxtLink>
+                <NuxtLink to="/documentationmain" class=" p-1 after:bg-themePrimary600 hover-underline-animation hover:text-themePrimary900 ">Documents</NuxtLink>     
                 <AppThemeSwitcher />
             </div>   
         </div>

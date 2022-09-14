@@ -5,8 +5,8 @@ Hey there!
   <ContentDoc
     :path="$route.params.slug ? `/documentation/${$route.params.slug[0]}` : '/documentation'"
   >
-    <template #not-found>
-      <h2>Documentation slug ({{ $route.params.slug }}) not found</h2>
-    </template>
+  <!-- template #not-found>
+      <h2>Blog slug ({{ $route.params.slug }}) not found</h2>
+    </template -->
   </ContentDoc>
 </template>
