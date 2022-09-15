@@ -1,14 +1,4 @@
 <template>
-<<<<<<< HEAD
-  {{blogNav}}
-</template>
-<script setup>
-	const { data: blogNav } = await useAsyncData("navigation", () => {
-		return fetchContentNavigation(queryContent("blog"));
-	});
-	
-</script>
-=======
  {{docs}}
 
   y ahora con la prueba
@@ -24,4 +14,3 @@
   const docs = await queryContent('/blog');
 
 </script>
->>>>>>> 2fcc541d6600cfa0df3ac46cbd78c1ab286c0969
