@@ -6,12 +6,21 @@
     
     <div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary">
         
-        <div class="ml-6 mb-2 mt-8 p-1 section-title text-xl text-themeText ">
-                Mis proyectos
-        </div> 
+        <div class="w-full flex align-middle justify-between ml-6 mb-2 mt-8 p-1 text-themeText ">
+                <div class=" flex section-title text-3xl font-bold ">
+                        <div>Mis </div><div class=" ml-2 text-themePrimary">Proyectos</div>
+                </div>
+                <div>
+                    Más proyectos ...
+                </div>
+        </div>
     
         <div class="flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200">
-            
+            <ProjectsCard class=" ml-2 mr-2 mt-4" />
+            <ProjectsCard class=" ml-2 mr-2 mt-4" />
+            <ProjectsCard class=" ml-2 mr-2 mt-4" />
+            <ProjectsCard class=" ml-2 mr-2 mt-4" />
+       
        
         </div>
         </div>

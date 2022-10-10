@@ -7,14 +7,14 @@
     <!-- main 9/12 container -->
     <div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary">
         
-        <div class="ml-6 mb-2 mt-8 p-1 section-title text-xl text-themeText ">
-                Documentación de Ciclos Formativos
+        <div class="w-full flex align-middle ml-6 mb-2 mt-8 p-1 section-title text-3xl font-bold text-themeText ">
+                <div>Documentación de </div><div class=" ml-2 text-themePrimary">Ciclos Formativos</div>
         </div>
         
        
    <!-- row -->
    
-        <div class="flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200">
+        <div class="w-full flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200">
             
             <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
                 <!-- service block -->
@@ -26,7 +26,7 @@
                         </svg>
                     </div>
                     <h3 class="text-lg leading-normal mb-2 font-semibold text-themePrimary200">DAM</h3>
-                    <p>Módulos del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma</p>
+                    <p>Módulos del C.F.G.S en Desarrollo de Aplicaciones Multiplataforma</p>
                 </div>
                 <!-- end service block -->
             </div>
@@ -41,7 +41,7 @@
                         </svg>
                     </div>
                     <h3 class="text-lg leading-normal mb-2 font-semibold ">ASIR</h3>
-                    <p >Módulos del Ciclo Formativo de Grado Superior en Administración de Sistemas Informáticos y Redes.</p>
+                    <p >Módulos del C.F.G.S en Administración de Sistemas Informáticos y Redes.</p>
                 </div>
                 <!-- end service block -->
             </div>           

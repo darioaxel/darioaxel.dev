@@ -1,6 +1,7 @@
 <template>
- {{docs}}
-
+  <div>
+ {{test}}
+  
   y ahora con la prueba
   <ContentDoc
     :path="$route.params.slug ? `/blog/${$route.params.slug[0]}` : '/blog'"
@@ -9,8 +10,10 @@
       <h2>Blog slug ({{ $route.params.slug }}) not found</h2>
     </template -->
   </ContentDoc>
+</div>
 </template>
 <script setup>
-  const docs = await queryContent('/blog');
+  const test = '/blog/' + this.$route;
+
 
 </script>
