@@ -16,7 +16,7 @@
    
         <div class="w-full flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200">
             
-            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+            <NuxtLink to="/DAM" class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
                 <!-- service block -->
                 <div class="py-8 px-12 mb-12 bg-themePrimary700 rounded-lg transform transition duration-300 ease-in-out hover:-translate-y-2">
                     <div class="inline-block mb-4">
@@ -29,8 +29,8 @@
                     <p>Módulos del C.F.G.S en Desarrollo de Aplicaciones Multiplataforma</p>
                 </div>
                 <!-- end service block -->
-            </div>
-            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            </NuxtLink>
+            <NuxtLink to="/ASIR" class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
                 <!-- service block -->
                 <div class="py-8 px-12 mb-12 bg-themePrimary700 rounded-lg border-b transform transition duration-300 ease-in-out hover:-translate-y-2">
                     <div class="inline-block  mb-4">
@@ -44,7 +44,7 @@
                     <p >Módulos del C.F.G.S en Administración de Sistemas Informáticos y Redes.</p>
                 </div>
                 <!-- end service block -->
-            </div>           
+            </NuxtLink>           
         </div>
         </div>
         </div>
