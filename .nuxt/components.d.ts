@@ -5,10 +5,10 @@ declare module 'vue' {
     'AppNavBar': typeof import("../components/app/NavBar.vue")['default'],
     'AppThemeSwitcher': typeof import("../components/app/ThemeSwitcher.vue")['default'],
     'AppDarioaxel': typeof import("../components/app/darioaxel.vue")['default'],
-    'BlogCard': typeof import("../components/blog/Card.vue")['default'],
-    'BlogGrid': typeof import("../components/blog/Grid.vue")['default'],
     'CoursesCourseCard': typeof import("../components/courses/CourseCard.vue")['default'],
     'Courses': typeof import("../components/courses/Courses.vue")['default'],
+    'BlogCard': typeof import("../components/blog/Card.vue")['default'],
+    'BlogGrid': typeof import("../components/blog/Grid.vue")['default'],
     'DocumentationNavigation': typeof import("../components/documentation/Navigation.vue")['default'],
     'DocumentationNavigationRecursive': typeof import("../components/documentation/NavigationRecursive.vue")['default'],
     'Hero': typeof import("../components/hero/Hero.vue")['default'],
@@ -56,10 +56,10 @@ declare module 'vue' {
     'LazyAppNavBar': typeof import("../components/app/NavBar.vue")['default'],
     'LazyAppThemeSwitcher': typeof import("../components/app/ThemeSwitcher.vue")['default'],
     'LazyAppDarioaxel': typeof import("../components/app/darioaxel.vue")['default'],
-    'LazyBlogCard': typeof import("../components/blog/Card.vue")['default'],
-    'LazyBlogGrid': typeof import("../components/blog/Grid.vue")['default'],
     'LazyCoursesCourseCard': typeof import("../components/courses/CourseCard.vue")['default'],
     'LazyCourses': typeof import("../components/courses/Courses.vue")['default'],
+    'LazyBlogCard': typeof import("../components/blog/Card.vue")['default'],
+    'LazyBlogGrid': typeof import("../components/blog/Grid.vue")['default'],
     'LazyDocumentationNavigation': typeof import("../components/documentation/Navigation.vue")['default'],
     'LazyDocumentationNavigationRecursive': typeof import("../components/documentation/NavigationRecursive.vue")['default'],
     'LazyHero': typeof import("../components/hero/Hero.vue")['default'],
@@ -109,10 +109,10 @@ export const AppFooter: typeof import("../components/app/Footer.vue")['default']
 export const AppNavBar: typeof import("../components/app/NavBar.vue")['default']
 export const AppThemeSwitcher: typeof import("../components/app/ThemeSwitcher.vue")['default']
 export const AppDarioaxel: typeof import("../components/app/darioaxel.vue")['default']
-export const BlogCard: typeof import("../components/blog/Card.vue")['default']
-export const BlogGrid: typeof import("../components/blog/Grid.vue")['default']
 export const CoursesCourseCard: typeof import("../components/courses/CourseCard.vue")['default']
 export const Courses: typeof import("../components/courses/Courses.vue")['default']
+export const BlogCard: typeof import("../components/blog/Card.vue")['default']
+export const BlogGrid: typeof import("../components/blog/Grid.vue")['default']
 export const DocumentationNavigation: typeof import("../components/documentation/Navigation.vue")['default']
 export const DocumentationNavigationRecursive: typeof import("../components/documentation/NavigationRecursive.vue")['default']
 export const Hero: typeof import("../components/hero/Hero.vue")['default']
@@ -160,10 +160,10 @@ export const LazyAppFooter: typeof import("../components/app/Footer.vue")['defau
 export const LazyAppNavBar: typeof import("../components/app/NavBar.vue")['default']
 export const LazyAppThemeSwitcher: typeof import("../components/app/ThemeSwitcher.vue")['default']
 export const LazyAppDarioaxel: typeof import("../components/app/darioaxel.vue")['default']
-export const LazyBlogCard: typeof import("../components/blog/Card.vue")['default']
-export const LazyBlogGrid: typeof import("../components/blog/Grid.vue")['default']
 export const LazyCoursesCourseCard: typeof import("../components/courses/CourseCard.vue")['default']
 export const LazyCourses: typeof import("../components/courses/Courses.vue")['default']
+export const LazyBlogCard: typeof import("../components/blog/Card.vue")['default']
+export const LazyBlogGrid: typeof import("../components/blog/Grid.vue")['default']
 export const LazyDocumentationNavigation: typeof import("../components/documentation/Navigation.vue")['default']
 export const LazyDocumentationNavigationRecursive: typeof import("../components/documentation/NavigationRecursive.vue")['default']
 export const LazyHero: typeof import("../components/hero/Hero.vue")['default']
