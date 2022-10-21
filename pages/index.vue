@@ -2,5 +2,5 @@
    <Hero /> 
    <Courses />
    <Projects />
-   <BlogGrid />
+   <!-- BlogGrid / -->
 </template>
