@@ -7,7 +7,7 @@
     <!-- main 9/12 container -->
     <div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary">
         
-        <div class="w-full flex align-middle ml-6 mb-2 mt-8 p-1 section-title text-3xl font-bold text-themeText ">
+        <div class="w-full flex flex-col md:flex-row align-middle ml-6 mb-2 mt-8 p-1 section-title text-3xl font-bold text-themeText ">
                 <div>Documentación de </div><div class=" ml-2 text-themePrimary">Ciclos Formativos</div>
         </div>
         
