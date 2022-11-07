@@ -15,13 +15,8 @@
                 </div>
         </div>
     
-        <div class="flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200">
-            <ProjectsCard class=" ml-2 mr-2 mt-4" />
-            <ProjectsCard class=" ml-2 mr-2 mt-4" />
-            <ProjectsCard class=" ml-2 mr-2 mt-4" />
-            <ProjectsCard class=" ml-2 mr-2 mt-4" />
-       
-       
+        <div class="flex flex-wrap w-full justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200">
+            <ProjectsCard topic="Hola Mundo!" title="un título" resume="Texto largo con el resumen" author="Darío Ureña" class=" ml-2 mr-2 mt-4" />
         </div>
         </div>
 </section>

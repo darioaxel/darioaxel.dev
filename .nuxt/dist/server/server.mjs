@@ -153,7 +153,6 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Card.vue ($id_d33ef93b)
 // - /components/projects/Projects.vue ($id_a977b07b)
-// - /components/blog/Grid.vue ($id_a63f3253)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /components/blog/Card.vue ($id_b9ebda0d)
 // - /pages/myBlog.vue?macro=true ($id_97c1bc1d)
@@ -291,7 +290,6 @@ import("file:///home/darioaxel/Trabajo/darioaxel.dev/node_modules/ufo/dist/index
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
-// - /components/blog/Grid.vue ($id_a63f3253)
 // - /pages/myBlog.vue?macro=true ($id_97c1bc1d)
 // - /pages/documentation/[...slug].vue ($id_5340a5d4)
 // - /pages/myBlog.vue ($id_89373a91)
@@ -1645,7 +1643,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 
 // --------------------
 const $id_f75548e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}:root{--background:#f8f8f8;--background-50:#fff;--background-100:#fefefe;--background-200:#fdfdfd;--background-300:#fcfcfc;--background-400:#fafafa;--background-500:#f8f8f8;--background-600:#dfdfdf;--background-700:#bababa;--background-800:#959595;--background-900:#7a7a7a;--text:#313131;--primary:#62d175;--primary-50:#f7fdf8;--primary-100:#effaf1;--primary-200:#d8f4dd;--primary-300:#c0edc8;--primary-400:#91df9e;--primary-500:#62d175;--primary-600:#58bc69;--primary-700:#4a9d58;--primary-800:#3b7d46;--primary-900:#306639;--secondary:#5a5560;--tertiary:#9d8d8f;--quaternary:#9b786f}.dark{--background:#35273b;--background-50:#f5f4f5;--background-100:#ebe9eb;--background-200:#cdc9ce;--background-300:#aea9b1;--background-400:#726876;--background-500:#35273b;--background-600:#302335;--background-700:#281d2c;--background-800:#201723;--background-900:#1a131d;--text:#f0f0f0;--primary:#14a1d0;--primary-50:#f3fafd;--primary-100:#e8f6fa;--primary-200:#c4e8f3;--primary-300:#a1d9ec;--primary-400:#5bbdde;--primary-500:#14a1d0;--primary-600:#1291bb;--primary-700:#0f799c;--primary-800:#0c617d;--primary-900:#0a4f66;--secondary:#5a5560;--tertiary:#9d8d8f;--quaternary:#9b786f}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.visible{visibility:visible}.invisible{visibility:hidden}.absolute{position:absolute}.relative{position:relative}.bottom-1{bottom:.25rem}.left-1{left:.25rem}.z-10{z-index:10}.m-4{margin:1rem}.m-2{margin:.5rem}.m-5{margin:1.25rem}.mx-auto{margin-left:auto;margin-right:auto}.mx-4{margin-left:1rem;margin-right:1rem}.ml-3{margin-left:.75rem}.mb-2{margin-bottom:.5rem}.mb-4{margin-bottom:1rem}.mt-8{margin-top:2rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.ml-6{margin-left:1.5rem}.mr-4{margin-right:1rem}.mb-3{margin-bottom:.75rem}.-mr-1{margin-right:-.25rem}.mb-12{margin-bottom:3rem}.mr-2{margin-right:.5rem}.mb-5{margin-bottom:1.25rem}.mt-5{margin-top:1.25rem}.mt-2{margin-top:.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.list-item{display:list-item}.hidden{display:none}.h-4{height:1rem}.h-auto{height:auto}.h-6{height:1.5rem}.h-10{height:2.5rem}.min-h-screen{min-height:100vh}.min-h-max{min-height:-webkit-max-content;min-height:-moz-max-content;min-height:max-content}.w-full{width:100%}.w-4{width:1rem}.w-10{width:2.5rem}.max-w-sm{max-width:24rem}.max-w-full{max-width:100%}.max-w-2xl{max-width:42rem}.flex-shrink{flex-shrink:1}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.list-inside{list-style-position:inside}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.justify-evenly{justify-content:space-evenly}.gap-5{gap:1.25rem}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.75rem*var(--tw-space-y-reverse));margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)))}.rounded-md{border-radius:.375rem}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-full{border-radius:9999px}.rounded-t-lg{border-top-left-radius:.5rem;border-top-right-radius:.5rem}.border-2{border-width:2px}.border{border-width:1px}.border-b-2{border-bottom-width:2px}.border-t-2{border-top-width:2px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-solid{border-style:solid}.border-themePrimary{border-color:var(--primary)}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-lime-400{--tw-border-opacity:1;border-color:rgb(163 230 53/var(--tw-border-opacity))}.border-b-themePrimary{border-bottom-color:var(--primary)}.border-t-themePrimary{border-top-color:var(--primary)}.bg-themeBackground{background-color:var(--background)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-themePrimary700{background-color:var(--primary-700)}.bg-themeBackground300{background-color:var(--background-300)}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.bg-gradient-to-b{background-image:linear-gradient(to bottom,var(--tw-gradient-stops))}.from-themeText{--tw-gradient-from:var(--text);--tw-gradient-to:hsla(0,0%,100%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-transparent{--tw-gradient-from:transparent;--tw-gradient-to:transparent;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.to-themePrimary{--tw-gradient-to:var(--primary)}.to-themeBackground{--tw-gradient-to:var(--background)}.object-cover{-o-object-fit:cover;object-fit:cover}.p-1{padding:.25rem}.p-5{padding:1.25rem}.p-2{padding:.5rem}.p-6{padding:1.5rem}.p-4{padding:1rem}.px-3{padding-left:.75rem;padding-right:.75rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-4{padding-left:1rem;padding-right:1rem}.py-8{padding-bottom:2rem;padding-top:2rem}.px-12{padding-left:3rem;padding-right:3rem}.px-8{padding-left:2rem;padding-right:2rem}.py-4{padding-bottom:1rem;padding-top:1rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.pb-4{padding-bottom:1rem}.pb-2{padding-bottom:.5rem}.pl-1{padding-left:.25rem}.pt-4{padding-top:1rem}.pl-2{padding-left:.5rem}.text-center{text-align:center}.align-baseline{vertical-align:baseline}.align-middle{vertical-align:middle}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.font-bold{font-weight:700}.font-normal{font-weight:400}.font-medium{font-weight:500}.font-semibold{font-weight:600}.font-light{font-weight:300}.leading-normal{line-height:1.5}.tracking-tight{letter-spacing:-.025em}.text-themeText{color:var(--text)}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-themePrimary{color:var(--primary)}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-themePrimary200{color:var(--primary-200)}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-themePrimary900{color:var(--primary-900)}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-themePrimary700{color:var(--primary-700)}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.decoration-wavy{-webkit-text-decoration-style:wavy;text-decoration-style:wavy}.underline-offset-4{text-underline-offset:4px}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-lg,.shadow-md{box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-themePrimary{--tw-shadow-color:var(--primary);--tw-shadow:var(--tw-shadow-colored)}.backdrop-blur-lg{--tw-backdrop-blur:blur(16px)}.backdrop-blur-lg,.backdrop-blur-sm{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-300{transition-duration:.3s}.duration-200{transition-duration:.2s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.after\\:bg-themePrimary600:after{background-color:var(--primary-600);content:var(--tw-content)}.hover\\:-translate-y-2:hover{--tw-translate-y:-0.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:bg-blue-800:hover{--tw-bg-opacity:1;background-color:rgb(30 64 175/var(--tw-bg-opacity))}.hover\\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity))}.hover\\:bg-gray-500:hover{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.hover\\:text-themePrimary900:hover{color:var(--primary-900)}.hover\\:text-themePrimary:hover{color:var(--primary)}.hover\\:text-themePrimary800:hover{color:var(--primary-800)}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.focus\\:ring-4:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 #0000;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\\:ring-blue-300:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.dark .dark\\:border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:hover\\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity))}.dark .dark\\:focus\\:ring-blue-800:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(30 64 175/var(--tw-ring-opacity))}@media (min-width:640px){.sm\\:block{display:block}.sm\\:w-1\\/2{width:50%}.sm\\:w-11\\/12{width:91.666667%}}@media (min-width:768px){.md\\:-mx-4{margin-left:-1rem;margin-right:-1rem}.md\\:w-1\\/12{width:8.333333%}.md\\:w-11\\/12{width:91.666667%}.md\\:w-3\\/12{width:25%}.md\\:w-9\\/12{width:75%}.md\\:max-w-\\[25\\%\\]{max-width:25%}.md\\:flex-row{flex-direction:row}.md\\:justify-center{justify-content:center}.md\\:justify-between{justify-content:space-between}.md\\:pt-6{padding-top:1.5rem}.md\\:pt-2{padding-top:.5rem}}@media (min-width:1024px){.lg\\:visible{visibility:visible}.lg\\:mb-0{margin-bottom:0}.lg\\:w-9\\/12{width:75%}.lg\\:w-1\\/3{width:33.333333%}.lg\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.lg\\:text-left{text-align:left}}@media (min-width:1280px){.xl\\:mb-20{margin-bottom:5rem}.xl\\:mt-20{margin-top:5rem}.xl\\:max-w-\\[65\\%\\]{max-width:65%}.xl\\:max-w-\\[20\\%\\]{max-width:20%}}";
+__vite_ssr_exports__.default = "/*! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}:root{--background:#f8f8f8;--background-50:#fff;--background-100:#fefefe;--background-200:#fdfdfd;--background-300:#fcfcfc;--background-400:#fafafa;--background-500:#f8f8f8;--background-600:#dfdfdf;--background-700:#bababa;--background-800:#959595;--background-900:#7a7a7a;--text:#313131;--primary:#62d175;--primary-50:#f7fdf8;--primary-100:#effaf1;--primary-200:#d8f4dd;--primary-300:#c0edc8;--primary-400:#91df9e;--primary-500:#62d175;--primary-600:#58bc69;--primary-700:#4a9d58;--primary-800:#3b7d46;--primary-900:#306639;--secondary:#5a5560;--tertiary:#9d8d8f;--quaternary:#9b786f}.dark{--background:#35273b;--background-50:#f5f4f5;--background-100:#ebe9eb;--background-200:#cdc9ce;--background-300:#aea9b1;--background-400:#726876;--background-500:#35273b;--background-600:#302335;--background-700:#281d2c;--background-800:#201723;--background-900:#1a131d;--text:#f0f0f0;--primary:#14a1d0;--primary-50:#f3fafd;--primary-100:#e8f6fa;--primary-200:#c4e8f3;--primary-300:#a1d9ec;--primary-400:#5bbdde;--primary-500:#14a1d0;--primary-600:#1291bb;--primary-700:#0f799c;--primary-800:#0c617d;--primary-900:#0a4f66;--secondary:#5a5560;--tertiary:#9d8d8f;--quaternary:#9b786f}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.visible{visibility:visible}.invisible{visibility:hidden}.absolute{position:absolute}.relative{position:relative}.bottom-1{bottom:.25rem}.left-1{left:.25rem}.z-10{z-index:10}.col-span-1{grid-column:span 1/span 1}.m-4{margin:1rem}.m-2{margin:.5rem}.m-5{margin:1.25rem}.mx-auto{margin-left:auto;margin-right:auto}.mx-4{margin-left:1rem;margin-right:1rem}.ml-3{margin-left:.75rem}.mb-2{margin-bottom:.5rem}.mb-4{margin-bottom:1rem}.mt-8{margin-top:2rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.ml-6{margin-left:1.5rem}.mr-4{margin-right:1rem}.mb-3{margin-bottom:.75rem}.-mr-1{margin-right:-.25rem}.mb-12{margin-bottom:3rem}.mr-2{margin-right:.5rem}.mb-5{margin-bottom:1.25rem}.mt-5{margin-top:1.25rem}.mt-2{margin-top:.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.list-item{display:list-item}.hidden{display:none}.h-4{height:1rem}.h-auto{height:auto}.h-6{height:1.5rem}.h-10{height:2.5rem}.min-h-screen{min-height:100vh}.min-h-max{min-height:-webkit-max-content;min-height:-moz-max-content;min-height:max-content}.w-full{width:100%}.w-4{width:1rem}.w-10{width:2.5rem}.max-w-sm{max-width:24rem}.max-w-full{max-width:100%}.max-w-2xl{max-width:42rem}.flex-initial{flex:0 1 auto}.flex-shrink{flex-shrink:1}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.list-inside{list-style-position:inside}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.content-start{align-content:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.justify-evenly{justify-content:space-evenly}.gap-5{gap:1.25rem}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.75rem*var(--tw-space-y-reverse));margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)))}.rounded-md{border-radius:.375rem}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-full{border-radius:9999px}.rounded-t-lg{border-top-left-radius:.5rem;border-top-right-radius:.5rem}.border-2{border-width:2px}.border{border-width:1px}.border-b-2{border-bottom-width:2px}.border-t-2{border-top-width:2px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-solid{border-style:solid}.border-themePrimary{border-color:var(--primary)}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-lime-400{--tw-border-opacity:1;border-color:rgb(163 230 53/var(--tw-border-opacity))}.border-b-themePrimary{border-bottom-color:var(--primary)}.border-t-themePrimary{border-top-color:var(--primary)}.bg-themeBackground{background-color:var(--background)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-themePrimary700{background-color:var(--primary-700)}.bg-themeBackground300{background-color:var(--background-300)}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.bg-gradient-to-b{background-image:linear-gradient(to bottom,var(--tw-gradient-stops))}.from-themeText{--tw-gradient-from:var(--text);--tw-gradient-to:hsla(0,0%,100%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-transparent{--tw-gradient-from:transparent;--tw-gradient-to:transparent;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.to-themePrimary{--tw-gradient-to:var(--primary)}.to-themeBackground{--tw-gradient-to:var(--background)}.object-cover{-o-object-fit:cover;object-fit:cover}.p-1{padding:.25rem}.p-5{padding:1.25rem}.p-2{padding:.5rem}.p-6{padding:1.5rem}.p-4{padding:1rem}.px-3{padding-left:.75rem;padding-right:.75rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-4{padding-left:1rem;padding-right:1rem}.py-8{padding-bottom:2rem;padding-top:2rem}.px-12{padding-left:3rem;padding-right:3rem}.px-8{padding-left:2rem;padding-right:2rem}.py-4{padding-bottom:1rem;padding-top:1rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.pb-4{padding-bottom:1rem}.pb-2{padding-bottom:.5rem}.pl-1{padding-left:.25rem}.pt-4{padding-top:1rem}.pl-2{padding-left:.5rem}.text-center{text-align:center}.align-baseline{vertical-align:baseline}.align-middle{vertical-align:middle}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.font-bold{font-weight:700}.font-normal{font-weight:400}.font-medium{font-weight:500}.font-semibold{font-weight:600}.font-light{font-weight:300}.leading-normal{line-height:1.5}.tracking-tight{letter-spacing:-.025em}.text-themeText{color:var(--text)}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-themePrimary{color:var(--primary)}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-themePrimary200{color:var(--primary-200)}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-themePrimary900{color:var(--primary-900)}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-themePrimary700{color:var(--primary-700)}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.decoration-wavy{-webkit-text-decoration-style:wavy;text-decoration-style:wavy}.underline-offset-4{text-underline-offset:4px}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-lg,.shadow-md{box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-themePrimary{--tw-shadow-color:var(--primary);--tw-shadow:var(--tw-shadow-colored)}.backdrop-blur-lg{--tw-backdrop-blur:blur(16px)}.backdrop-blur-lg,.backdrop-blur-sm{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-300{transition-duration:.3s}.duration-200{transition-duration:.2s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.after\\:bg-themePrimary600:after{background-color:var(--primary-600);content:var(--tw-content)}.hover\\:-translate-y-2:hover{--tw-translate-y:-0.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:bg-blue-800:hover{--tw-bg-opacity:1;background-color:rgb(30 64 175/var(--tw-bg-opacity))}.hover\\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity))}.hover\\:bg-gray-500:hover{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.hover\\:text-themePrimary900:hover{color:var(--primary-900)}.hover\\:text-themePrimary:hover{color:var(--primary)}.hover\\:text-themePrimary800:hover{color:var(--primary-800)}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.focus\\:ring-4:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 #0000;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\\:ring-blue-300:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.dark .dark\\:border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:hover\\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity))}.dark .dark\\:focus\\:ring-blue-800:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(30 64 175/var(--tw-ring-opacity))}@media (min-width:640px){.sm\\:block{display:block}.sm\\:w-1\\/2{width:50%}.sm\\:w-11\\/12{width:91.666667%}}@media (min-width:768px){.md\\:-mx-4{margin-left:-1rem;margin-right:-1rem}.md\\:w-1\\/12{width:8.333333%}.md\\:w-11\\/12{width:91.666667%}.md\\:w-3\\/12{width:25%}.md\\:w-9\\/12{width:75%}.md\\:max-w-\\[25\\%\\]{max-width:25%}.md\\:flex-row{flex-direction:row}.md\\:justify-center{justify-content:center}.md\\:justify-between{justify-content:space-between}.md\\:pt-6{padding-top:1.5rem}.md\\:pt-2{padding-top:.5rem}}@media (min-width:1024px){.lg\\:visible{visibility:visible}.lg\\:mb-0{margin-bottom:0}.lg\\:w-9\\/12{width:75%}.lg\\:w-1\\/3{width:33.333333%}.lg\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.lg\\:text-left{text-align:left}}@media (min-width:1280px){.xl\\:mb-20{margin-bottom:5rem}.xl\\:mt-20{margin-top:5rem}.xl\\:max-w-\\[65\\%\\]{max-width:65%}.xl\\:max-w-\\[20\\%\\]{max-width:20%}}";
 }
 
 
@@ -2644,7 +2642,6 @@ Object.defineProperty(__vite_ssr_exports__, "useColorMode", { enumerable: true, 
 // - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/imports.mjs ($id_4b1cd4e0)
 // - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
 // - /pages/documents.vue?macro=true ($id_124e705e)
-// - /components/blog/Grid.vue ($id_a63f3253)
 // - /pages/myBlog.vue?macro=true ($id_97c1bc1d)
 // - /pages/documentation/[...slug].vue ($id_5340a5d4)
 // - /pages/documents.vue ($id_987f14fd)
@@ -2982,7 +2979,6 @@ Object.defineProperty(__vite_ssr_exports__, "flatUnwrap", { enumerable: true, co
 // Parents: 
 // - /@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/imports.mjs ($id_4b1cd4e0)
 // - /pages/documentation/[...slug].vue?macro=true ($id_dd222174)
-// - /components/blog/Grid.vue ($id_a63f3253)
 // - /pages/myBlog.vue?macro=true ($id_97c1bc1d)
 // - /pages/documentation/[...slug].vue ($id_5340a5d4)
 // - /pages/myBlog.vue ($id_89373a91)
@@ -3315,7 +3311,6 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sf
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Card.vue ($id_d33ef93b)
 // - /components/projects/Projects.vue ($id_a977b07b)
-// - /components/blog/Grid.vue ($id_a63f3253)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /components/blog/Card.vue ($id_b9ebda0d)
 // - /pages/myBlog.vue?macro=true ($id_97c1bc1d)
@@ -3390,7 +3385,6 @@ import("file:///home/darioaxel/Trabajo/darioaxel.dev/node_modules/vue/server-ren
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Card.vue ($id_d33ef93b)
 // - /components/projects/Projects.vue ($id_a977b07b)
-// - /components/blog/Grid.vue ($id_a63f3253)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /components/blog/Card.vue ($id_b9ebda0d)
 // - /pages/myBlog.vue?macro=true ($id_97c1bc1d)
@@ -5571,9 +5565,9 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<section${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col items-stretch justify-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground" }, _attrs))}><div class="w-full lg:w-9/12 flex justify-center"><!-- div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
+  _push(`<section${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col items-stretch justify-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground" }, _attrs))}><div class="w-full lg:w-9/12 flex justify-center"><!--div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
                 <img src="~/assets/img/Space-Invaders-corner-left.svg">
-            </div --><!-- main 9/12 container --><div class="w-full flex flex-wrap flex-row justify-center"><div class="w-full flex flex-col md:flex-row align-middle mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText border-b-2 border-b-themePrimary"><div>CFGS </div><div class="ml-2 text-themePrimary">Administración de Servidores y Redes</div></div><div class="w-full flex flex-wrap flex-row"><div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2"><div class="text-themePrimary text-3xl font-bold mt-4 ml-4">Primer Curso:</div><ul class="ml-6 text-themeText text-2xl mt-4"><li>Bases de datos</li><li>Lenguajes de Marcas</li><li>Programación</li><li>Inglés Técnico I</li></ul></div><div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2"><div class="text-themePrimary text-3xl font-bold mt-4 ml-4">Segundo Curso:</div><ul class="ml-6 text-themeText text-2xl mt-4"><li>Interfaces de usuario</li><li>Acceso a datos</li><li>Inglés Técnico II</li></ul></div></div></div></div></section>`)
+            </div --><!-- main 9/12 container --><div class="w-full flex flex-wrap flex-row content-start justify-center"><div class="w-full flex flex-col md:flex-row flex-initial mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText border-b-2 border-b-themePrimary"><div>CFGS </div><div class="ml-2 text-themePrimary">Administración de Servidores y Redes</div></div><div class="w-full flex flex-wrap flex-initial"><div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2"><div class="text-themePrimary text-3xl font-bold mt-4 ml-4">Primer Curso:</div><ul class="ml-6 text-themeText text-2xl mt-4"><li>Bases de datos</li><li>Lenguajes de Marcas</li><li>Programación</li><li>Inglés Técnico I</li></ul></div><div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2"><div class="text-themePrimary text-3xl font-bold mt-4 ml-4">Segundo Curso:</div><ul class="ml-6 text-themeText text-2xl mt-4"><li>Interfaces de usuario</li><li>Acceso a datos</li><li>Inglés Técnico II</li></ul></div></div></div></div></section>`)
 }
 
 
@@ -5600,7 +5594,6 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
-// - /assets/img/Space-Invaders-corner-left.svg ($id_14e00950)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_3531e8eb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
@@ -5609,48 +5602,43 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/img/Space-Invaders-corner-left.svg");
-
-
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<section${
-    __vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col justify-center items-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground" }, _attrs))
-  }><div class="w-full lg:w-9/12 flex justify-center"><div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2"><img${
-    __vite_ssr_import_1__.ssrRenderAttr("src", __vite_ssr_import_2__.default)
-  }></div><!-- main 9/12 container --><div class="w-full flex flex-wrap flex-row justify-center"><div class="w-full flex align-middle mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText border-b-2 border-b-themePrimary"><div>CFGS </div><div class="ml-2 text-themePrimary">Desarrollo de Aplicaciones Multiplataforma</div></div><div class="w-full flex flex-wrap flex-row justify-evenly"></div></div></div></section>`)
+  _push(`<!--[--><div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "grid col-span-1" }, _attrs))}> Hola </div><!-- section
+        class=" w-full flex flex-col justify-center items-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground">
+        <div class="w-full lg:w-9/12 flex justify-center">
+            <div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
+                <img src="~/assets/img/Space-Invaders-corner-left.svg">
+            </div>
+          
+            <div class="w-full flex flex-wrap flex-row justify-center">
+                <div class="w-full flex align-middle mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText 
+       border-b-2 border-b-themePrimary">
+                    <div>CFGS </div>
+                    <div class=" ml-2 text-themePrimary">Desarrollo de Aplicaciones Multiplataforma</div>
+                </div>
+                <div class="w-full flex flex-wrap flex-row justify-evenly">
+                   
+                </div>
+            </div>
+        </div>
+    </section --><!--]-->`)
 }
 
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/DAM.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/DAM.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/DAM.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
-}
-
-
-// --------------------
-// Request: /assets/img/Space-Invaders-corner-left.svg
-// Parents: 
-// - /pages/DAM.vue?macro=true ($id_3531e8eb)
-// - /components/courses/Courses.vue ($id_fc3dd28e)
-// - /pages/myBlog.vue?macro=true ($id_97c1bc1d)
-// - /pages/DAM.vue ($id_d1d732a0)
-// - /pages/myBlog.vue ($id_89373a91)
-// Dependencies: 
-
-// --------------------
-const $id_14e00950 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/img/Space-Invaders-corner-left.svg";
 }
 
 
@@ -5892,7 +5880,6 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /components/hero/Hero.vue ($id_4c233d37)
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Projects.vue ($id_a977b07b)
-// - /components/blog/Grid.vue ($id_a63f3253)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
@@ -5904,40 +5891,36 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/courses/Cou
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/projects/Projects.vue");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/blog/Grid.vue");
-
 const _sfc_main = {}
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_Hero = __vite_ssr_import_0__.default
   const _component_Courses = __vite_ssr_import_1__.default
   const _component_Projects = __vite_ssr_import_2__.default
-  const _component_BlogGrid = __vite_ssr_import_3__.default
 
   _push(`<!--[-->`)
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Hero, null, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Courses, null, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Projects, null, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_BlogGrid, null, null, _parent))
-  _push(`<!--]-->`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Hero, null, null, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Courses, null, null, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Projects, null, null, _parent))
+  _push(`<!-- BlogGrid / --><!--]-->`)
 }
 
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_6__.useSSRContext()
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -6166,6 +6149,20 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 
 
 // --------------------
+// Request: /assets/img/Space-Invaders-corner-left.svg
+// Parents: 
+// - /components/courses/Courses.vue ($id_fc3dd28e)
+// - /pages/myBlog.vue?macro=true ($id_97c1bc1d)
+// - /pages/myBlog.vue ($id_89373a91)
+// Dependencies: 
+
+// --------------------
+const $id_14e00950 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/_nuxt/assets/img/Space-Invaders-corner-left.svg";
+}
+
+
+// --------------------
 // Request: /components/courses/Courses.vue?vue&type=style&index=0&scoped=true&lang.css
 // Parents: 
 // - /components/courses/Courses.vue ($id_fc3dd28e)
@@ -6201,11 +6198,14 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_ProjectsCard = __vite_ssr_import_0__.default
 
-  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "relative bg-themeBackground" }, _attrs))} data-v-1a2e6764><section class="flex justify-center" data-v-1a2e6764><!-- main 9/12 container --><div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary" data-v-1a2e6764><div class="w-full flex align-middle justify-between ml-6 mb-2 mt-8 p-1 text-themeText" data-v-1a2e6764><div class="flex section-title text-3xl font-bold" data-v-1a2e6764><div data-v-1a2e6764>Mis </div><div class="ml-2 text-themePrimary" data-v-1a2e6764>Proyectos</div></div><div data-v-1a2e6764> Más proyectos ... </div></div><div class="flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200" data-v-1a2e6764>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ProjectsCard, { class: "ml-2 mr-2 mt-4" }, null, _parent))
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ProjectsCard, { class: "ml-2 mr-2 mt-4" }, null, _parent))
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ProjectsCard, { class: "ml-2 mr-2 mt-4" }, null, _parent))
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ProjectsCard, { class: "ml-2 mr-2 mt-4" }, null, _parent))
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "relative bg-themeBackground" }, _attrs))} data-v-1a2e6764><section class="flex justify-center" data-v-1a2e6764><!-- main 9/12 container --><div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary" data-v-1a2e6764><div class="w-full flex align-middle justify-between ml-6 mb-2 mt-8 p-1 text-themeText" data-v-1a2e6764><div class="flex section-title text-3xl font-bold" data-v-1a2e6764><div data-v-1a2e6764>Mis </div><div class="ml-2 text-themePrimary" data-v-1a2e6764>Proyectos</div></div><div data-v-1a2e6764> Más proyectos ... </div></div><div class="flex flex-wrap w-full justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200" data-v-1a2e6764>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_ProjectsCard, {
+    topic: "Hola Mundo!",
+    title: "un título",
+    resume: "Texto largo con el resumen",
+    author: "Darío Ureña",
+    class: "ml-2 mr-2 mt-4"
+  }, null, _parent))
   _push(`</div></div></section></div>`)
 }
 
@@ -6236,31 +6236,47 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_d33ef93b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_0__.defineComponent({
+  __name: "Card",
+  props: {
+    writtenAt: { type: Date, required: true },
+    topic: { type: String },
+    title: { type: String, required: true },
+    resume: { type: String, required: true },
+    author: { type: String, required: true }
+  },
+  setup(__props, { expose }) {
+    expose();
+    const props = __props;
+    const __returned__ = { props };
+    Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
+    return __returned__;
+  }
+});
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({
     class: "max-w-2xl px-8 py-4 mx-auto bg-themeBackground300 rounded-lg shadow-md",
-    style: {"cursor":"auto"}
-  }, _attrs))}><div class="flex items-center justify-between"><span class="text-sm font-light text-themeText">Jan 15, 2022</span><a class="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-200 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500">JavaScript</a></div><div class="mt-2"><a href="https://stackdiary.com/" class="text-2xl font-bold text-themePrimary hover:text-themePrimary800 hover:underline">How to do whatever I think..</a><p class="mt-2 text-gray-600 dark:text-gray-300">Dui urna vehicula tincidunt pretium consequat luctus mi, platea fermentum conubia tempus ac orci. Pellentesque dictum malesuada cubilia faucibus dignissim mi nascetur senectus, augue ad libero efficitur dolor duis lobortis, non etiam sociosqu.</p></div><div class="flex items-center justify-between mt-4"><a href="#" class="text-themePrimary700 hover:underline">Read more ⟶</a><div class="flex items-center"><img src="https://stackdiary.com/140x100.png" alt="Author Photo" class="hidden object-cover w-10 h-10 mx-4 rounded-full sm:block"><a class="font-bold text-gray-700 cursor-pointer dark:text-gray-200">John Doe</a></div></div></div>`)
+    style: { "cursor": "auto" }
+  }, _attrs))}><div class="flex items-center justify-between"><span class="text-sm font-light text-themeText">${__vite_ssr_import_2__.ssrInterpolate($setup.props.writtenAt)}</span><a class="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-200 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500">${__vite_ssr_import_2__.ssrInterpolate($setup.props.topic)}</a></div><div class="mt-2"><a href="https://stackdiary.com/" class="text-2xl font-bold text-themePrimary hover:text-themePrimary800 hover:underline">${__vite_ssr_import_2__.ssrInterpolate($setup.props.title)}</a><p class="mt-2 text-gray-600 dark:text-gray-300">${__vite_ssr_import_2__.ssrInterpolate($setup.props.resume)}</p></div><div class="flex items-center justify-between mt-4"><a href="#" class="text-themePrimary700 hover:underline">Read more \u27F6</a><div class="flex items-center"><img src="https://stackdiary.com/140x100.png" alt="Author Photo" class="hidden object-cover w-10 h-10 mx-4 rounded-full sm:block"><a class="font-bold text-gray-700 cursor-pointer dark:text-gray-200">${__vite_ssr_import_2__.ssrInterpolate($setup.props.author)}</a></div></div></div>`);
 }
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
+const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_2__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/projects/Card.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+  const ssrContext = __vite_ssr_import_3__.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/projects/Card.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/components/projects/Card.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/home/darioaxel/Trabajo/darioaxel.dev/components/projects/Card.vue"]]);
+;
 }
 
 
@@ -6273,113 +6289,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // --------------------
 const $id_f3ae7b23 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap\");.section-title[data-v-1a2e6764]{font-family:\"Arimo\",sans-serif;font-weight:400}";
-}
-
-
-// --------------------
-// Request: /components/blog/Grid.vue
-// Parents: 
-// - /pages/index.vue?macro=true ($id_5dd70240)
-// - /pages/index.vue ($id_cca58e97)
-// Dependencies: 
-// - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs ($id_e209d000)
-// - /node_modules/@nuxt/content/dist/runtime/composables/query.mjs ($id_47535763)
-// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
-// - /@id/plugin-vue:export-helper ($id_bbb863c1)
-// --------------------
-const $id_a63f3253 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
-
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/navigation.mjs");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@nuxt/content/dist/runtime/composables/query.mjs");
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-
-const _sfc_main = {
-  __name: 'Grid',
-  async setup(__props, { expose }) {
-  expose();
-
-let __temp, __restore
-
-const { data: blogNav } = (
-  ([__temp,__restore] = __vite_ssr_import_3__.withAsyncContext(() => __vite_ssr_import_0__.useAsyncData('navigation', () => {
-	return __vite_ssr_import_1__.fetchContentNavigation(__vite_ssr_import_2__.queryContent("/blog"))
-}))),
-  __temp = await __temp,
-  __restore(),
-  __temp
-)
-
-const __returned__ = { blogNav }
-Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
-return __returned__
-}
-
-}
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
-
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "relative bg-themeBackground" }, _attrs))}><section class="flex justify-center"><!-- main 9/12 container --><div class="flex flex-wrap flex-row md:w-9/12 mt-8 border-t-2 border-t-themePrimary"><div class="w-full flex align-middle justify-between ml-6 mb-2 mt-8 p-1 text-themeText"><div class="flex flex-col md:flex-row section-title text-3xl"><div>Mi </div><div class="ml-2 text-themePrimary">Blog</div></div><div> Entradas anteriores ... </div></div><!-- div class="flex flex-wrap justify-evenly pt-4 md:-mx-4 text-center text-themePrimary200">
-                   
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-					<template
-						v-for="(b, i) in blogNav[0].children"
-						:key="\`blogNavItem-\${b._path}-\${i}\`"
-					>
-						<div class="px-7 py-5 rounded-lg border-2">
-							<h2 class="text-lg font-semibold rainbow-text">
-								{{ b.title }}
-							</h2>
-							
-							<ul
-								v-if="b.children"
-								class="list-disc list-inside mt-4 pl-2 space-y-3"
-							>
-								<template
-									v-for="(child, k) in b.children"
-									:key="\`childNav-\${child._path}-\${k}-\${i}\`"
-								>
-									<li
-										class="list-item text-sm text-gray-600 hover:text-primary-900 underline underline-offset-4 decoration-wavy decoration-primary/40 hover:decoration-primary transition-all"
-									>
-										<NuxtLink :to="\`/blog\${child._path}\`">
-											{{ child.title }}
-										</NuxtLink>
-									</li>
-								</template>
-							</ul>
-							<ul v-else class="list-disc list-inside mt-4 pl-2 space-y-3">
-								<li
-									class="list-item text-sm text-gray-600 hover:text-primary-900 underline underline-offset-4 decoration-wavy decoration-primary/40 hover:decoration-primary transition-all"
-								>
-									<NuxtLink :to="\`/blog\${b._path}\`"> Get Started </NuxtLink>
-								</li>
-							</ul>
-						</div>
-					</template>
-				</div  --></div></section></div>`)
-}
-
-
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_6__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/blog/Grid.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/components/blog/Grid.vue"]]);
 }
 
 
@@ -6508,9 +6417,9 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<section${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col items-stretch justify-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground" }, _attrs))}><div class="w-full lg:w-9/12 flex justify-center"><!-- div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
+  _push(`<section${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col items-stretch justify-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground" }, _attrs))}><div class="w-full lg:w-9/12 flex justify-center"><!--div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
                 <img src="~/assets/img/Space-Invaders-corner-left.svg">
-            </div --><!-- main 9/12 container --><div class="w-full flex flex-wrap flex-row justify-center"><div class="w-full flex flex-col md:flex-row align-middle mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText border-b-2 border-b-themePrimary"><div>CFGS </div><div class="ml-2 text-themePrimary">Administración de Servidores y Redes</div></div><div class="w-full flex flex-wrap flex-row"><div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2"><div class="text-themePrimary text-3xl font-bold mt-4 ml-4">Primer Curso:</div><ul class="ml-6 text-themeText text-2xl mt-4"><li>Bases de datos</li><li>Lenguajes de Marcas</li><li>Programación</li><li>Inglés Técnico I</li></ul></div><div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2"><div class="text-themePrimary text-3xl font-bold mt-4 ml-4">Segundo Curso:</div><ul class="ml-6 text-themeText text-2xl mt-4"><li>Interfaces de usuario</li><li>Acceso a datos</li><li>Inglés Técnico II</li></ul></div></div></div></div></section>`)
+            </div --><!-- main 9/12 container --><div class="w-full flex flex-wrap flex-row content-start justify-center"><div class="w-full flex flex-col md:flex-row flex-initial mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText border-b-2 border-b-themePrimary"><div>CFGS </div><div class="ml-2 text-themePrimary">Administración de Servidores y Redes</div></div><div class="w-full flex flex-wrap flex-initial"><div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2"><div class="text-themePrimary text-3xl font-bold mt-4 ml-4">Primer Curso:</div><ul class="ml-6 text-themeText text-2xl mt-4"><li>Bases de datos</li><li>Lenguajes de Marcas</li><li>Programación</li><li>Inglés Técnico I</li></ul></div><div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2"><div class="text-themePrimary text-3xl font-bold mt-4 ml-4">Segundo Curso:</div><ul class="ml-6 text-themeText text-2xl mt-4"><li>Interfaces de usuario</li><li>Acceso a datos</li><li>Inglés Técnico II</li></ul></div></div></div></div></section>`)
 }
 
 
@@ -6535,7 +6444,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
-// - /assets/img/Space-Invaders-corner-left.svg ($id_14e00950)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_d1d732a0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
@@ -6544,30 +6452,41 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/img/Space-Invaders-corner-left.svg");
-
-
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<section${
-    __vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col justify-center items-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground" }, _attrs))
-  }><div class="w-full lg:w-9/12 flex justify-center"><div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2"><img${
-    __vite_ssr_import_1__.ssrRenderAttr("src", __vite_ssr_import_2__.default)
-  }></div><!-- main 9/12 container --><div class="w-full flex flex-wrap flex-row justify-center"><div class="w-full flex align-middle mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText border-b-2 border-b-themePrimary"><div>CFGS </div><div class="ml-2 text-themePrimary">Desarrollo de Aplicaciones Multiplataforma</div></div><div class="w-full flex flex-wrap flex-row justify-evenly"></div></div></div></section>`)
+  _push(`<!--[--><div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "grid col-span-1" }, _attrs))}> Hola </div><!-- section
+        class=" w-full flex flex-col justify-center items-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground">
+        <div class="w-full lg:w-9/12 flex justify-center">
+            <div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
+                <img src="~/assets/img/Space-Invaders-corner-left.svg">
+            </div>
+          
+            <div class="w-full flex flex-wrap flex-row justify-center">
+                <div class="w-full flex align-middle mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText 
+       border-b-2 border-b-themePrimary">
+                    <div>CFGS </div>
+                    <div class=" ml-2 text-themePrimary">Desarrollo de Aplicaciones Multiplataforma</div>
+                </div>
+                <div class="w-full flex flex-wrap flex-row justify-evenly">
+                   
+                </div>
+            </div>
+        </div>
+    </section --><!--]-->`)
 }
 
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/DAM.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/DAM.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/DAM.vue"]]);
 }
 
 
@@ -6803,7 +6722,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /components/hero/Hero.vue ($id_4c233d37)
 // - /components/courses/Courses.vue ($id_fc3dd28e)
 // - /components/projects/Projects.vue ($id_a977b07b)
-// - /components/blog/Grid.vue ($id_a63f3253)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
@@ -6815,40 +6733,36 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/courses/Cou
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/projects/Projects.vue");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/blog/Grid.vue");
-
 const _sfc_main = {}
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_Hero = __vite_ssr_import_0__.default
   const _component_Courses = __vite_ssr_import_1__.default
   const _component_Projects = __vite_ssr_import_2__.default
-  const _component_BlogGrid = __vite_ssr_import_3__.default
 
   _push(`<!--[-->`)
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Hero, null, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Courses, null, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_Projects, null, null, _parent))
-  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_BlogGrid, null, null, _parent))
-  _push(`<!--]-->`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Hero, null, null, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Courses, null, null, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Projects, null, null, _parent))
+  _push(`<!-- BlogGrid / --><!--]-->`)
 }
 
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_6__.useSSRContext()
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/darioaxel.dev/pages/index.vue"]]);
 }
 
 
@@ -8256,7 +8170,6 @@ const __modules__ = {
   "/@id/virtual:nuxt:/home/darioaxel/Trabajo/darioaxel.dev/.nuxt/routes.mjs": $id_55318730,
   "/pages/ASIR.vue?macro=true": $id_0d597a27,
   "/pages/DAM.vue?macro=true": $id_3531e8eb,
-  "/assets/img/Space-Invaders-corner-left.svg": $id_14e00950,
   "/pages/blog/[...slug].vue?macro=true": $id_23ff3f9c,
   "/pages/documentation/[...slug].vue?macro=true": $id_dd222174,
   "/pages/documents.vue?macro=true": $id_124e705e,
@@ -8265,11 +8178,11 @@ const __modules__ = {
   "/assets/img/darioaxel-nobackground.png": $id_8e44c1f1,
   "/components/hero/Hero.vue?vue&type=style&index=0&lang.css": $id_7ddead21,
   "/components/courses/Courses.vue": $id_fc3dd28e,
+  "/assets/img/Space-Invaders-corner-left.svg": $id_14e00950,
   "/components/courses/Courses.vue?vue&type=style&index=0&scoped=true&lang.css": $id_08efd8d5,
   "/components/projects/Projects.vue": $id_a977b07b,
   "/components/projects/Card.vue": $id_d33ef93b,
   "/components/projects/Projects.vue?vue&type=style&index=0&scoped=true&lang.css": $id_f3ae7b23,
-  "/components/blog/Grid.vue": $id_a63f3253,
   "/pages/myBlog.vue?macro=true": $id_97c1bc1d,
   "/components/blog/Card.vue": $id_b9ebda0d,
   "/pages/ASIR.vue": $id_a51b67c4,

@@ -1,7 +1,7 @@
 <template>
    
     <AppNavBar />
-    <slot />
+      <slot />
     <AppFooter />
    
 </template> 
