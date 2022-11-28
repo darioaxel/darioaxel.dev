@@ -1,8 +1,7 @@
-import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    buildModules: ['@nuxtjs/color-mode','@nuxtjs/tailwindcss',
+    modules: ['@nuxtjs/color-mode','@nuxtjs/tailwindcss',
     '@nuxt/content'],
     colorMode: {
         classSuffix:""

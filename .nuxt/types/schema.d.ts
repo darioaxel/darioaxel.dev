@@ -18,15 +18,27 @@ declare module '@nuxt/schema' {
     content: {
         cacheVersion: number,
 
-        cacheIntegerity: string,
+        cacheIntegrity: string,
 
-        transformers: Array<string>,
+        transformers: Array<any>,
 
         base: string,
 
-        watch: boolean,
+        api: {
+             baseURL: string,
+        },
 
-        sources: Array<string>,
+        watch: {
+             ws: {
+                   port: number,
+
+                   hostname: string,
+
+                   showURL: boolean,
+             },
+        },
+
+        sources: any,
 
         ignores: Array<string>,
 
@@ -87,23 +99,51 @@ declare module '@nuxt/schema' {
                    tr: string,
              },
 
-             rehypePlugins: Array<any>,
+             anchorLinks: {
+                   depth: number,
 
-             remarkPlugins: Array<any>,
+                   exclude: Array<number>,
+             },
+
+             remarkPlugins: any,
+
+             rehypePlugins: any,
         },
 
         yaml: any,
 
-        csv: any,
+        csv: {
+             delimeter: string,
+
+             json: boolean,
+        },
 
         navigation: {
              fields: Array<any>,
+        },
+
+        documentDriven: boolean,
+
+        experimental: {
+             clientDB: boolean,
         },
     },
   }
   interface PublicRuntimeConfig {
      content: {
-        base: string,
+        clientDB: {
+             isSPA: boolean,
+
+             integrity: any,
+        },
+
+        api: {
+             baseURL: string,
+        },
+
+        navigation: {
+             fields: Array<any>,
+        },
 
         tags: {
              p: string,
@@ -158,6 +198,14 @@ declare module '@nuxt/schema' {
         highlight: boolean,
 
         wsUrl: string,
+
+        documentDriven: boolean,
+
+        anchorLinks: {
+             depth: number,
+
+             exclude: Array<number>,
+        },
     },
   }
 }
