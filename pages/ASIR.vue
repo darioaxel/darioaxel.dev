@@ -4,7 +4,7 @@
             <!--div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
                 <img src="~/assets/img/Space-Invaders-corner-left.svg">
             </div -->
-            <!-- main 9/12 container -->
+            <!-- main 9/12 container -->       
             <div class="w-full flex flex-wrap flex-row content-start justify-center">
                 <div class="w-full flex flex-col md:flex-row flex-initial mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText 
        border-b-2 border-b-themePrimary">

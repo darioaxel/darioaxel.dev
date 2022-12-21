@@ -1,8 +1,6 @@
 <template>
     <div class=" grid col-span-1">
-        Hola
-    </div>
-          <!-- section
+        <section
         class=" w-full flex flex-col justify-center items-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground">
         <div class="w-full lg:w-9/12 flex justify-center">
             <div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
@@ -16,9 +14,18 @@
                     <div class=" ml-2 text-themePrimary">Desarrollo de Aplicaciones Multiplataforma</div>
                 </div>
                 <div class="w-full flex flex-wrap flex-row justify-evenly">
-                   
+                    {{DamNav}}
+                    {{DamPretty}}
                 </div>
             </div>
         </div>
-    </section -->
+    </section>
+    </div>
 </template>
+<script setup>
+	const { data: DamNav } = await useAsyncData("navigation", () => {
+		return fetchContentNavigation(queryContent("asir"));
+	});
+    const { data: DamPretty} = JSON.stringify(DamNav);
+	
+</script>
