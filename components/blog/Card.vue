@@ -1,6 +1,4 @@
-<template>
-
-    
+<template>    
     <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
             <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
@@ -16,5 +14,4 @@
             </a>
         </div>
     </div>
-
 </template>

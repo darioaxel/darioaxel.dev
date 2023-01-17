@@ -12,13 +12,19 @@
                     <div>Mi </div>
                     <div class=" ml-2 text-themePrimary">Blog</div>
                 </div>
-                <div class="w-full flex flex-wrap flex-row justify-evenly">
-                    <BlogCard class=" mb-2"/>
-                    <BlogCard class=" mb-2" />
-                    <BlogCard class=" mb-2"/>
-                    <BlogCard class=" mb-2" />
-                    <BlogCard class=" mb-2" />
-                    <BlogCard class=" mb-2" />
+                <div class="w-full flex flex-wrap flex-row justify-evenly">                            
+                  
+                  <ContentNavigation v-slot="{ navigation }" :query="blogQuery">
+                    <div v-for="post in navigation[0].children" :key="post._path" :to="post._path">
+                        <BlogCardHorizontal :title='post.title' :description='post.description' :path='post._path'>a</BlogCardHorizontal>
+                    </div>
+                    {{ navigation }}
+                    <NuxtLink v-for="post in navigation[0].children" :key="post._path" :to="post._path">
+                        {{ post.title}} - {{post.description }}
+                    </NuxtLink>
+                  </ContentNavigation>
+                  
+                  
                 </div>
             </div>
         </div>
@@ -27,7 +33,5 @@
     </section>
 </template>
 <script setup lang="ts">
-const { data: navigation } = await useAsyncData('navigation', () => {
-    return fetchContentNavigation(queryContent("/blog"))
-})
+ const blogQuery = queryContent().where({ _path: /^\/blog/ })
 </script>
