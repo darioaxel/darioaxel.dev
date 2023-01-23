@@ -1,7 +1,7 @@
 <template>
     <section
-        class=" min-h-max w-full flex flex-col justify-center items-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground">
-        <div class="w-full lg:w-9/12 flex justify-center">
+        class=" h-full w-full flex flex-col justify-center items-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground">
+        <div class="w-full lg:w-9/12 flex justify-center align-top">
             <div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
                 <img src="~/assets/img/Space-Invaders-corner-left.svg">
             </div>
@@ -12,18 +12,13 @@
                     <div>Mi </div>
                     <div class=" ml-2 text-themePrimary">Blog</div>
                 </div>
-                <div class="w-full flex flex-wrap flex-row justify-evenly">                            
+                <div class="w-full flex flex-col flex-wrap justify-evenly">                            
                   
                   <ContentNavigation v-slot="{ navigation }" :query="blogQuery">
                     <div v-for="post in navigation[0].children" :key="post._path" :to="post._path">
                         <BlogCardHorizontal :title='post.title' :description='post.description' :path='post._path'>a</BlogCardHorizontal>
-                    </div>
-                    {{ navigation }}
-                    <NuxtLink v-for="post in navigation[0].children" :key="post._path" :to="post._path">
-                        {{ post.title}} - {{post.description }}
-                    </NuxtLink>
-                  </ContentNavigation>
-                  
+                    </div>   
+                  </ContentNavigation>                 
                   
                 </div>
             </div>

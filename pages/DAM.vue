@@ -1,8 +1,7 @@
 <template>
-    <div class=" grid col-span-1">
-        <section
-        class=" w-full flex flex-col justify-center items-center text-themeText text-center lg:text-left md:pt-6 bg-themeBackground">
-        <div class="w-full lg:w-9/12 flex justify-center">
+    <div class=" h-full">
+        <section class=" w-full h-full flex justify-center content-start text-themeText text-center lg:text-left md:pt-6 bg-themeBackground">
+        <div class="w-full lg:w-9/12 flex items-start justify-center">
             <div class="invisible lg:visible absolute z-10 bottom-1 left-1 text-white md:w-1/12 ml-3 mb-2">
                 <img src="~/assets/img/Space-Invaders-corner-left.svg">
             </div>

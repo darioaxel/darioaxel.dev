@@ -1,7 +1,7 @@
 <template>
-   <div class="w-full">
+   <div class="w-full h-screen">
     <AppNavBar />
-      <slot />
+      <slot class="h-screen"/>
     <AppFooter />
   </div>
 </template> 

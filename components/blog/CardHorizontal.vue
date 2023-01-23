@@ -1,10 +1,7 @@
 <template>
-    <div>
-        hola
-        <h1>{{ props.title }}</h1>
-        {{ props.description }}
-        <NuxtLink :to="props.path">{{ props.title }}</NuxtLink>
-
+    <div class="w-full flex flex-col place-content-start ml-5 mr-5">
+        <NuxtLink class=" text-themePrimary text-2xl" :to="props.path">{{ props.title }}</NuxtLink>
+        {{ props.description }}  
     </div>
 </template>
 <script setup lang="ts">
