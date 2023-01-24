@@ -12,9 +12,9 @@
                     <div>Mi </div>
                     <div class=" ml-2 text-themePrimary">Blog</div>
                 </div>
-                <div class="w-full flex flex-col flex-wrap justify-evenly">                            
+                <div class="w-full flex flex-col flex-wrap justify-evenly">                       
                   
-                  <ContentNavigation v-slot="{ navigation }" :query="blogQuery">
+                  <ContentNavigation v-slot="{ navigation }" :query="blogQuery">                                   
                     <div v-for="post in navigation[0].children" :key="post._path" :to="post._path">
                         <BlogCardHorizontal :title='post.title' :description='post.description' :path='post._path'>a</BlogCardHorizontal>
                     </div>   
