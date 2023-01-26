@@ -12,19 +12,29 @@
                     <div>CFGS </div>
                     <div class=" ml-2 text-themePrimary">Desarrollo de Aplicaciones Multiplataforma</div>
                 </div>
-                <div class="w-full flex flex-wrap flex-row justify-evenly">
-                    {{DamNav}}
-                    {{DamPretty}}
-                </div>
+                <div class="w-full flex flex-wrap flex-initial">
+                  
+                  <div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2">
+                      <div class=" text-themePrimary text-3xl font-bold mt-4 ml-4">Primer Curso:</div>
+                      <ul class=" ml-6 text-themeText text-2xl mt-4">
+                          <li>Bases de datos</li>
+                          <li>Lenguajes de Marcas</li>
+                          <li>Programación</li>
+                          <li>Inglés Técnico I</li>
+                      </ul>               
+                  </div>  
+                  <div class="w-full m-4 pb-4 border-solid rounded-md border-themePrimary border-2">
+                      <div class=" text-themePrimary text-3xl font-bold mt-4 ml-4">Segundo Curso:</div>
+                      <ul class=" ml-6 text-themeText text-2xl mt-4">
+                          <li>Interfaces de usuario</li>
+                          <li>Acceso a datos</li>
+                          <li>Inglés Técnico II</li>
+                      </ul>               
+                  </div>  
+                
+              </div>
             </div>
         </div>
     </section>
     </div>
 </template>
-<script setup>
-	const { data: DamNav } = await useAsyncData("navigation", () => {
-		return fetchContentNavigation(queryContent("asir"));
-	});
-    const { data: DamPretty} = JSON.stringify(DamNav);
-	
-</script>
