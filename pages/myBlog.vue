@@ -15,7 +15,12 @@
                 <div class="w-full flex flex-col m-2">           
                   <ContentNavigation v-slot="{ navigation }" :query="blogQuery">                                                      
                     <div v-for="post in navigation[0].children" :key="post._path" :to="post._path">
-                        <BlogCardHorizontal class="w-full" :title='post.title' :description='post.description' :tags="post.tags" :path='post._path'>a</BlogCardHorizontal>
+                        <BlogCardHorizontal class="w-full" 
+                        :title='post.title' 
+                        :written-at="post.writtenAt"
+                        :description='post.description' 
+                        :tags="post.tags" 
+                        :path='post._path'>a</BlogCardHorizontal>
                     </div >   
                   </ContentNavigation>                                 
                 </div>
@@ -26,5 +31,6 @@
     </section>
 </template>
 <script setup lang="ts">
- const blogQuery = queryContent().where({ _path: /^\/blog/ })
+ const blogQuery = queryContent().where({ _path: /^\/blog/ });
+ 
 </script>
