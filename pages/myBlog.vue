@@ -7,19 +7,17 @@
             </div>
             <!-- main 9/12 container -->
             <div class="w-full flex flex-wrap flex-row justify-center">
-                <div class="w-full flex align-middle ml-4 mr-4 mb-4 mt-8 p-1 section-title text-3xl font-bold text-themeText 
+                <div class="w-full flex align-middle ml-4 mr-4 mb-2 mt-8 p-1 section-title text-3xl font-bold text-themeText 
        border-b-2 border-b-themePrimary">
                     <div>Mi </div>
                     <div class=" ml-2 text-themePrimary">Blog</div>
                 </div>
-                <div class="w-full flex flex-col">                
-                  
+                <div class="w-full flex flex-col m-2">           
                   <ContentNavigation v-slot="{ navigation }" :query="blogQuery">                                                      
                     <div v-for="post in navigation[0].children" :key="post._path" :to="post._path">
                         <BlogCardHorizontal class="w-full" :title='post.title' :description='post.description' :tags="post.tags" :path='post._path'>a</BlogCardHorizontal>
                     </div >   
-                  </ContentNavigation>                 
-                
+                  </ContentNavigation>                                 
                 </div>
             </div>
         </div>
