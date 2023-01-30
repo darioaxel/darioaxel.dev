@@ -22,6 +22,7 @@
                         :tags="post.tags" 
                         :path='post._path'>a</BlogCardHorizontal>
                     </div >   
+                    {{ navigation }}
                   </ContentNavigation>                                 
                 </div>
             </div>

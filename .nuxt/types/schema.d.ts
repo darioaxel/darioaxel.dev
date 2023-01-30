@@ -4,208 +4,226 @@ declare module '@nuxt/schema' {
     ["colorMode"]?: typeof import("@nuxtjs/color-mode").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     ["tailwindcss"]?: typeof import("@nuxtjs/tailwindcss").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     ["content"]?: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["nuxt-config-schema"]?: typeof import("nuxt-config-schema").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    modules?: (NuxtModule | string | [NuxtModule | string, Record<string, any>] | ["@nuxtjs/color-mode", NuxtConfig["colorMode"]] | ["@nuxtjs/tailwindcss", NuxtConfig["tailwindcss"]] | ["@nuxt/content", NuxtConfig["content"]] | ["nuxt-config-schema", NuxtConfig["nuxt-config-schema"]] | ["@nuxt/telemetry", NuxtConfig["telemetry"]])[],
   }
   interface RuntimeConfig {
-     app: {
-        baseURL: string,
+   app: {
+      baseURL: string,
 
-        buildAssetsDir: string,
+      buildAssetsDir: string,
 
-        cdnURL: string,
-    },
+      cdnURL: string,
+   },
 
-    content: {
-        cacheVersion: number,
+   content: {
+      cacheVersion: number,
 
-        cacheIntegrity: string,
+      cacheIntegrity: string,
 
-        transformers: Array<any>,
+      transformers: Array<any>,
 
-        base: string,
+      base: string,
 
-        api: {
-             baseURL: string,
-        },
+      api: {
+         baseURL: string,
+      },
 
-        watch: {
-             ws: {
-                   port: number,
+      watch: {
+         ws: {
+            port: {
+               port: number,
 
-                   hostname: string,
+               portRange: Array<number>,
+            },
 
-                   showURL: boolean,
-             },
-        },
+            hostname: string,
 
-        sources: any,
+            showURL: boolean,
+         },
+      },
 
-        ignores: Array<string>,
+      sources: any,
 
-        locales: Array<any>,
+      ignores: Array<string>,
 
-        defaultLocale: any,
+      locales: Array<any>,
 
-        highlight: boolean,
+      defaultLocale: any,
 
-        markdown: {
-             tags: {
-                   p: string,
+      highlight: boolean,
 
-                   a: string,
+      markdown: {
+         tags: {
+            p: string,
 
-                   blockquote: string,
+            a: string,
 
-                   "code-inline": string,
+            blockquote: string,
 
-                   code: string,
+            "code-inline": string,
 
-                   em: string,
+            code: string,
 
-                   h1: string,
+            em: string,
 
-                   h2: string,
+            h1: string,
 
-                   h3: string,
+            h2: string,
 
-                   h4: string,
+            h3: string,
 
-                   h5: string,
+            h4: string,
 
-                   h6: string,
+            h5: string,
 
-                   hr: string,
+            h6: string,
 
-                   img: string,
+            hr: string,
 
-                   ul: string,
+            img: string,
 
-                   ol: string,
+            ul: string,
 
-                   li: string,
+            ol: string,
 
-                   strong: string,
+            li: string,
 
-                   table: string,
+            strong: string,
 
-                   thead: string,
+            table: string,
 
-                   tbody: string,
+            thead: string,
 
-                   td: string,
+            tbody: string,
 
-                   th: string,
+            td: string,
 
-                   tr: string,
-             },
+            th: string,
 
-             anchorLinks: {
-                   depth: number,
+            tr: string,
+         },
 
-                   exclude: Array<number>,
-             },
+         anchorLinks: {
+            depth: number,
 
-             remarkPlugins: any,
+            exclude: Array<number>,
+         },
 
-             rehypePlugins: any,
-        },
+         remarkPlugins: any,
 
-        yaml: any,
+         rehypePlugins: any,
+      },
 
-        csv: {
-             delimeter: string,
+      yaml: any,
 
-             json: boolean,
-        },
+      csv: {
+         delimeter: string,
 
-        navigation: {
-             fields: Array<any>,
-        },
+         json: boolean,
+      },
 
-        documentDriven: boolean,
+      navigation: {
+         fields: Array<any>,
+      },
 
-        experimental: {
-             clientDB: boolean,
-        },
-    },
+      documentDriven: boolean,
+
+      experimental: {
+         clientDB: boolean,
+
+         stripQueryParameters: boolean,
+      },
+   },
   }
   interface PublicRuntimeConfig {
-     content: {
-        clientDB: {
-             isSPA: boolean,
+   content: {
+      locales: Array<any>,
 
-             integrity: any,
-        },
+      defaultLocale: any,
 
-        api: {
-             baseURL: string,
-        },
+      integrity: any,
 
-        navigation: {
-             fields: Array<any>,
-        },
+      experimental: {
+         stripQueryParameters: boolean,
 
-        tags: {
-             p: string,
+         clientDB: boolean,
+      },
 
-             a: string,
+      api: {
+         baseURL: string,
+      },
 
-             blockquote: string,
+      navigation: {
+         fields: Array<any>,
+      },
 
-             "code-inline": string,
+      tags: {
+         p: string,
 
-             code: string,
+         a: string,
 
-             em: string,
+         blockquote: string,
 
-             h1: string,
+         "code-inline": string,
 
-             h2: string,
+         code: string,
 
-             h3: string,
+         em: string,
 
-             h4: string,
+         h1: string,
 
-             h5: string,
+         h2: string,
 
-             h6: string,
+         h3: string,
 
-             hr: string,
+         h4: string,
 
-             img: string,
+         h5: string,
 
-             ul: string,
+         h6: string,
 
-             ol: string,
+         hr: string,
 
-             li: string,
+         img: string,
 
-             strong: string,
+         ul: string,
 
-             table: string,
+         ol: string,
 
-             thead: string,
+         li: string,
 
-             tbody: string,
+         strong: string,
 
-             td: string,
+         table: string,
 
-             th: string,
+         thead: string,
 
-             tr: string,
-        },
+         tbody: string,
 
-        highlight: boolean,
+         td: string,
 
-        wsUrl: string,
+         th: string,
 
-        documentDriven: boolean,
+         tr: string,
+      },
 
-        anchorLinks: {
-             depth: number,
+      highlight: boolean,
 
-             exclude: Array<number>,
-        },
-    },
+      wsUrl: string,
+
+      documentDriven: boolean,
+
+      host: string,
+
+      trailingSlash: boolean,
+
+      anchorLinks: {
+         depth: number,
+
+         exclude: Array<number>,
+      },
+   },
   }
 }

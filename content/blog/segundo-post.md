@@ -6,3 +6,7 @@ navigation:
     tags: ['javascript','typescript']
 ---
 # Segundo post
+
+```bash
+Esto debería salir como código
+```
