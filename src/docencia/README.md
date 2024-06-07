@@ -1,16 +1,16 @@
 ---
-title: Guide
+title: Docencia
 icon: lightbulb
 ---
 
-## Highlight Features
+## Ciclos Formativos de Formación Profesional
 
-### Bar
+### Desarrollo de aplicaciones multiplataforma
 
-- [baz](bar/baz.md)
+- [Bases de Datos](./comunes/bbdd.md)
 - ...
 
-### Foo
+### Desarrollo de aplicaciones web
 
-- [ray](foo/ray.md)
+- [Bases de Datos](./comunes/bbdd.md)
 - ...
