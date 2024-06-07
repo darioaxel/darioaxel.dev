@@ -12,7 +12,7 @@ export default navbar([
         text: "DAM",
         icon: "lightbulb",
         prefix: "dam/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
+        children: [],       
       },
       {
         text: "DAW",
