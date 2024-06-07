@@ -11,8 +11,8 @@ export default navbar([
       {
         text: "DAM",
         icon: "lightbulb",
-        prefix: "dam/",
-        children: ["dam"],       
+        link: "#",
+        prefix: "dam/"      
       },
       {
         text: "DAW",
