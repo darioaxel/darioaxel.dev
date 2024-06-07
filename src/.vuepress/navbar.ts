@@ -4,20 +4,26 @@ export default navbar([
   "/",
   "/demo/",
   {
-    text: "Guide",
+    text: "Docencia",
     icon: "lightbulb",
-    prefix: "/guide/",
+    prefix: "/docencia/",
     children: [
       {
-        text: "Bar",
+        text: "DAM",
         icon: "lightbulb",
-        prefix: "bar/",
+        prefix: "dam/",
         children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
       },
       {
-        text: "Foo",
+        text: "DAW",
         icon: "lightbulb",
-        prefix: "foo/",
+        prefix: "daw/",
+        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
+      },
+      {
+        text: "ASIR",
+        icon: "lightbulb",
+        prefix: "asir/",
         children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
       },
     ],
