@@ -18,13 +18,13 @@ export default navbar([
         text: "DAW",
         icon: "lightbulb",
         prefix: "daw/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
+        link: "#",
       },
       {
         text: "ASIR",
         icon: "lightbulb",
         prefix: "asir/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
+        link: "#",
       },
     ],
   }
