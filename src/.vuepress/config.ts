@@ -1,12 +1,13 @@
 import { defineUserConfig } from "vuepress";
+
 import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
 
-  lang: "en-US",
+  lang: "es-ES",
   title: "darioaxel.dev",
-  description: "My personal sandbox",
+  description: "A docs demo for vuepress-theme-hope",
 
   theme,
 

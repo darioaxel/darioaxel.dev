@@ -3,14 +3,17 @@ title: Docencia
 icon: lightbulb
 ---
 
-## Ciclos Formativos de Formación Profesional
+## Highlight Features
 
-### Desarrollo de aplicaciones multiplataforma
+### CFGS DAM/DAW
 
-- [Bases de Datos](./comunes/bbdd.md)
+- [Bases de Datos](dam-daw/bases-de-datos.md)
+
+
+### CFGS ASIR
+
+- [ray](foo/ray.md)
 - ...
 
-### Desarrollo de aplicaciones web
 
-- [Bases de Datos](./comunes/bbdd.md)
-- ...
+### Ciclos Expecialización
