@@ -12,8 +12,7 @@ export default navbar([
       {
         text: "CFGS DAM/DAW",
         icon: "lightbulb",
-        prefix: "dam-daw/",
-        children: ["Bases de Datos", { text: "0484 Bases de Dastos", icon: "ellipsis", link: "#" }],
+        prefix: "dam-daw/", children: [{ text: "0484 Bases de Datos", icon: "ellipsis", link: "basesdatos/" }],       
       },
        {
         text: "CFGS ASIR",
