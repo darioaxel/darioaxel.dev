@@ -2,8 +2,6 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/portfolio",
-  "/demo/",
   {
     text: "Docencia",
     icon: "lightbulb",
@@ -28,6 +26,7 @@ export default navbar([
       },
     ],
   },
+  "/demo/",
   {
     text: "V2 Docs",
     icon: "book",
