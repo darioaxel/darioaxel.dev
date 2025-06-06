@@ -7,8 +7,8 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "darioaxel",
+    url: "darioaxel.dev",
   },
 
   logo: "assets/image/space-invader-icon.svg",
@@ -44,6 +44,7 @@ export default hopeTheme({
   markdown: {
     align: true,
     attrs: true,
+    alert: true,
     codeTabs: true,
     component: true,
     demo: true,

@@ -10,19 +10,22 @@ export default navbar([
       {
         text: "CFGS DAM/DAW",
         icon: "lightbulb",
-        prefix: "dam-daw/", children: [{ text: "0484 Bases de Datos", icon: "ellipsis", link: "basesdatos/" }],       
+        prefix: "dam-daw/", 
+        children: [{ text: "0484 Bases de Datos", link: "basesdatos/" }],       
       },
        {
         text: "CFGS ASIR",
         icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
+        prefix: "asir/",
+        children: [{ text: "0378 Gestión Bases de Datos", link: "gestionbasesdatos/" },
+          { text: "0378 Admon. Sistemas Gestores BBDD", link: "admonsgbd/" }
+        ],
       },
       {
         text: "Ciclos Expecialización",
         icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
+        prefix: "ce/",
+        children: [{ text: "Programación para IA", link: "pia/" }],
       },
     ],
   },
