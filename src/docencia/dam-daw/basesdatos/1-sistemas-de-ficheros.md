@@ -3,31 +3,31 @@ title: UT01 Sistemas de Ficheros
 icon: circle-info
 ---
 # Tema 1: Sistemas de almacenamiento de información
-> [!tip]
-> **RESULTADOS DE APRENDIZAJE**
-> *R.A.1. Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de sistemas gestores.*
 
+**RESULTADOS DE APRENDIZAJE**
+> *R.A.1.* Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de sistemas gestores.
 
-**Caso Práctico**
+> [!info] 
+> **Caso Práctico**
+>
+> A la empresa **BK Sistemas Informáticos** le ha surgido un nuevo proyecto a desarrollar para un pequeño taller mecánico.
+>
+>El analista del que dispone la empresa ha estado hablando con ellos y ha concluido que su actividad consiste en la reparación de vehículos de todas las marcas tanto de mecánica, como de chapa y pintura y electricidad.
+>
+>Desde el taller le han comentado que necesitarán guardar y extraer información como:
+>
+> 1. Los datos de los clientes del taller.
+> 2. Las reparaciones más habituales que se realizan en cada modelo y marca.
+> 3. Controlar la entradas y salidas de piezas para las reparaciones y su coste.
+> 4. El beneficio que se obtiene con cada tipo de reparación, etc.
+>
+> Por tanto, desde **BK Sistemas Informáticos** se ponen manos a la obra, sabiendo que la información obtenida sea adecuada, oportuna y útil depende de que las decisiones que se tomen sean acertadas o no.
 
-A la empresa **BK Sistemas Informáticos** le ha surgido un nuevo proyecto a desarrollar para un pequeño taller mecánico.
-
-El analista del que dispone la empresa ha estado hablando con ellos y ha concluido que su actividad consiste en la reparación de vehículos de todas las marcas tanto de mecánica, como de chapa y pintura y electricidad.
-
-Desde el taller le han comentado que necesitarán guardar y extraer información como:
-
-1. Los datos de los clientes del taller.
-2. Las reparaciones más habituales que se realizan en cada modelo y marca.
-3. Controlar la entradas y salidas de piezas para las reparaciones y su coste.
-4. El beneficio que se obtiene con cada tipo de reparación, etc.
-
-Por tanto, desde **BK Sistemas Informáticos** se ponen manos a la obra, sabiendo que la información obtenida sea adecuada, oportuna y útil depende de que las decisiones que se tomen sean acertadas o no.
-
-# 1. Introducción
+## 1. Introducción
 
 Desde tiempos remotos, los datos han sido registrados por el hombre en algún tipo de soporte (piedra, papel, madera, barro, etc) a fin de que quedara constancia de un fenómeno o idea.
 
-![](https://upload.wikimedia.org/wikipedia/commons/a/ad/Tablilla_de_barro_contable.jpg)
+![tablilla](https://upload.wikimedia.org/wikipedia/commons/a/ad/Tablilla_de_barro_contable.jpg)
 
 Esta necesidad no ha variado y, en la actualidad, para tomar decisiones acertadas en cualquier actividad económica  se requiere manejar una buena **información** que se obtendrá a partir de  los **datos.** Entendemos los datos como hechos aislados. Cuando los datos se organizan y se tratan de obtiene **información**.
 
@@ -41,7 +41,7 @@ Dentro de las bases de datos existen distintos modelos con sus ventajas e inconv
 
 Aunque los sistemas de bases de datos proporcionan una visión de alto nivel de los datos, al final los datos se tienen que almacenar como bits en uno o varios dispositivos de almacenamiento. Una amplia mayoría de las bases de datos de hoy en día almacenan los datos en discos magnéticos y los extraen a la memoria del espacio principal para su procesamiento. La estructura lógica y los métodos de acceso a los datos pueden variar en función del tipo de dato a guardar, de las necesidades de velocidad de recuperación de esos datos y de su importancia. 
 
-# 2. Información y datos
+## 2. Información y datos
 
 Antes de nada, debemos comprender en qué se diferencia el **conocimiento** de los **datos** y de la **información**. En una conversación informal, los tres términos suelen utilizarse indistintamente y esto puede llevar a una interpretación libre del concepto de conocimiento. 
 
@@ -49,13 +49,11 @@ Quizás la forma más sencilla de diferenciar los términos sea pensar que los d
 
 ### **Dato**
 
-> 
-> 
-> 
+
 > *Datos son hechos conocidos que pueden registrarse y que tienen un significado implícito.*
 > 
 > – **Ramez Elmasri y Shamkant B. Navathe**
-> 
+ 
 
 Un dato es un conjunto discreto, de factores objetivos sobre un hecho real. Dentro de un contexto
 empresarial, el concepto de dato es definido como un registro de transacciones. Un dato no dice nada sobre el porqué de las cosas, y por sí mismo tiene poca o ninguna relevancia o propósito.
@@ -107,9 +105,9 @@ Lo que inmediatamente deja claro la definición es que ese conocimiento no es si
 
 El conocimiento se deriva de la información, así como la información se deriva de los datos. Para que la información se convierte en conocimiento, las personas deben hacer prácticamente todo el trabajo.
 
-# 3. Sistemas de almacenamiento de la información
+## 3. Sistemas de almacenamiento de la información
 
-## 3.1. Evolución de los sistemas de almacenamiento de la información
+### 3.1. Evolución de los sistemas de almacenamiento de la información
 
 Aunque, como hemos visto al inicio del tema, existen referencias a diferentes elementos y sistemas para el almacenamiento de la información desde los inicios de la historia, en este punto pasaremos a estudiar aquellos sistemas generados de manera informática.
 
@@ -131,7 +129,7 @@ Los primeros modelos en surgir fueron:
 
 **Modelo de Red:** El modelo de red introdujo el concepto de conjuntos y relaciones entre los registros, permitiendo estructuras de datos más complejas. Este modelo se implementó en sistemas de bases de datos como CODASYL (Conferencia sobre Lenguajes de Sistemas de Datos) y proporcionó mayor flexibilidad para representar datos interconectados.
 
-### 3.1.2. Ascenso de las Bases de Datos Relacionales
+#### 3.1.2. Ascenso de las Bases de Datos Relacionales
 
 La década de 1970 fue testigo de un avance revolucionario con el desarrollo de los *sistemas de gestión de bases de datos relacionales (RDBMS)*, pioneros por Edgar F. Codd. Las bases de datos relacionales introdujeron **tablas, filas y columnas**, junto con el lenguaje de consulta estructurado (SQL) que permite la manipulación y consulta de datos.
 
@@ -167,9 +165,9 @@ Se espera que los desarrollos en las bases de datos blockchain, las bases de dat
 
 **Bases de Datos Federadas:** Las bases de datos federadas permiten la integración y consulta sin fisuras de datos en fuentes y plataformas de datos heterogéneas. Estas bases de datos aprovechan el procesamiento de consultas distribuidas, la virtualización de datos y la gestión de metadatos para proporcionar una vista unificada de los datos de fuentes dispares.
 
-# 4. Ficheros
+## 4. Ficheros
 
-## **4.1. Conceptos sobre ficheros.**
+### **4.1. Conceptos sobre ficheros.**
 
 > Un **fichero** es una unidad de **almacenamiento lógico no volátil** que agrupa un conjunto de **informaciones relacionada** entre sí **bajo un mismo nombre**.
 > 
@@ -198,7 +196,7 @@ Las operaciones de escritura y lectura se realizan a partir de dicho puntero, qu
 
 La ventaja de la visión lógica como cadena de bytes tiene la ventaja de ser muy simple y permite a las aplicaciones acomodar cualquier estructura interna de fichero que se desee, entre las que se pueden destacar la **estructura en registros de tamaño fijo o variable, o la estructura en árbol**
 
-## 4.2. Estructuras internas de los ficheros y operaciones con ellos
+### 4.2. Estructuras internas de los ficheros y operaciones con ellos
 
 Los archivos, como herramienta para almacenar información, tomaron la terminología del mundo de la oficina empresarial. Así la palabra **dato** hace referencia a un valor sea un número o un texto o cualquier otro tipo de datos almacenable.
 
@@ -217,7 +215,7 @@ En general sobre los archivos se pueden realizar las siguientes operaciones:
 
 A continuación se introducen una serie de esquemas para una mejor comprensión de cómo es internamente la estructura de los ficheros en función del tamaño de los registros y la forma en la que se guardan.
 
-### 4.2.1. Clasificación en función del **tamaño de los registros**
+#### 4.2.1. Clasificación en función del **tamaño de los registros**
 
 1. **Ficheros con Registros de tamaño fijo** 
 
@@ -239,7 +237,7 @@ Por un lado, la inserción y eliminación de registros es muy costosa, puesto qu
 
 Por otro lado, sólo se pueden ordenar los registros por un campo, lo que da lugar a un único criterio de búsqueda optimizado.
 
-### 4.2.2. Clasificación en función de la forma de acceso a la información
+#### 4.2.2. Clasificación en función de la forma de acceso a la información
 
 **a. Ficheros secuenciales**
 
@@ -291,7 +289,7 @@ Cuando aparece un nuevo registro, se añade al final del archivo, pero los punte
 | No se borran los registros, sino que se marcan para ser ignorados. Por lo que se malgasta espacio |
 | Añadir registros o modificar las claves son operaciones que requieren recalcular los punteros por lo que llevan más tiempo que en los casos anteriores |
 
-### **d. Ficheros secuenciales indexados**
+#### **d. Ficheros secuenciales indexados**
 
 Se utilizan dos ficheros para los datos, uno posee los registros almacenados de forma secuencial, pero que permite su acceso aleatorio. El otro posee una tabla con punteros a la posición ordenada de los registros. Ese segundo fichero es el **índice,** una tabla con la ordenación deseada para los registros y la posición que ocupan en el archivo.
 
@@ -312,7 +310,7 @@ Para no tener demasiados archivos en overflow (lo que restaría velocidad ya que
 | **Desventajas** |
 | Para un uso óptimo hay que reorganizar el archivo principal cada cierto tiempo y esta operación es muy costosa ya que hay que reescribir de nuevo y de forma ordenada todo el archivo con el área primeria, además de reorganizar el área de índices y eliminar el fichero de desbordamiento. Es tan costosa que se hace muy poco a menudo, pero en archivos de datos que se modifican muy a menudo, no reorganizar provocaría un área de desbordamiento enorme y perderíamos las ventajas de este modelo. |
 
-### **e. Ficheros indexado-encadenados**
+#### **e. Ficheros indexado-encadenados**
 
 Utiliza punteros e índices, es una variante encadenada del caso anterior. Hay un fichero de índices equivalente al comentado en el caso anterior y otro fichero de tipo encadenado con punteros a los siguientes registros. La diferencia está en que este segundo fichero que contiene el área primaria de los datos, no está ordenado secuencialmente, sino que el orden se realizaría recorriendo un puntero (como en el caso de los ficheros secuencialmente encadenados).
 
@@ -328,7 +326,7 @@ Cuando se añaden registros se añaden en un tercer fichero llamado de desbordam
 
 Ejemplo fichero secuencial indexado y encadenado
 
-## 4.3. Sistemas de gestión de información basados en ficheros
+### 4.3. Sistemas de gestión de información basados en ficheros
 
 Este tipo de sistemas hace referencia a la forma que inicialmente se desarrolló en la informática para gestionar ficheros (y que aún se usa). En realidad, es una forma que traducía la manera clásica de gestionar sistemas de información (con sus archivadores, carpetas,…) al mundo electrónico.
 
@@ -347,7 +345,7 @@ Cada aplicación almacena y utiliza sus propios datos de forma un tanto caótica
 - **Dificultad para el acceso simultáneo a los datos.** El acceso simultáneo requiere que varios usuarios al puedan acceder a la misma información. Con este tipo de sistemas es extremadamente difícil conseguir esta capacidad.
 - **Dificultad para administrar la seguridad del sistema.** Ya que cada aplicación se crea independientemente. Es, por tanto, muy difícil establecer criterios de seguridad uniformes. Es decir, los permisos que cada usuario tiene sobre los datos, se establecen de forma muy confusa (y nada uniforme ya que cada aplicación puede variar la seguridad).
 
-## 4.4. El uso de los ficheros en las bases de datos
+### 4.4. El uso de los ficheros en las bases de datos
 
 En las bases de datos actuales, sus datos se corresponden con cierto número de ficheros diferentes que mantiene el sistema operativo del sistema. Estos ficheros residen  permanentemente en los discos, y se mantienen con copias de seguridad. 
 
@@ -361,7 +359,7 @@ Por ejemplo, el motor de bases de datos InnoDB, utiliza para guardar la informac
 
 El acceso y direccionamiento de los contenidos en los archivos `.ibd` es una estructura bastante compleja que se realiza a través de una organización eficiente y jerárquica basada en **B-trees** (árboles B) y páginas de almacenamiento. 
 
-# 5. Bases de datos
+## 5. Bases de datos
 
 A finales de los setenta, la aparición de nuevas tecnologías de manejo de datos a través de los sistemas de bases de datos supuso un considerable cambio. Los sistemas basados en ficheros separados dieron paso a la utilización de sistemas gestores de bases de datos, que son sistemas software centralizados o distribuidos que ofrecen facilidades para la definición de bases de datos, selección de estructuras de datos y búsqueda de forma interactiva o mediante lenguajes de programación.
 
