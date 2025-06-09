@@ -47,7 +47,7 @@ Antes de nada, debemos comprender en qué se diferencia el **conocimiento** de l
 
 Quizás la forma más sencilla de diferenciar los términos sea pensar que los datos están localizados en el mundo y el conocimiento está localizado en agentes de cualquier tipo, mientras que la información adopta un papel mediador entre ambos. Un agente no equivale a un ser humano. Podría tratarse de un animal, una máquina o una organización constituida por otros agentes a su vez.
 
-### **Dato**
+#### **Dato**
 
 
 > *Datos son hechos conocidos que pueden registrarse y que tienen un significado implícito.*
@@ -70,7 +70,7 @@ El significado de un dato cambia dependiendo dentro del contexto en que se encue
 - Finalmente… **25 “kilos” de “patatas” en “mercado” de “Concepción”**
 
   
-**Información**
+#### **Información**
 
 Como han hecho muchos investigadores que han estudiado el concepto de información, lo
 describiremos como un mensaje, normalmente bajo la forma de un documento o algún tipo de
@@ -91,7 +91,7 @@ Transformamos datos en información añadiéndoles valor en varios sentidos. Hay
 • **Corrigiendo**: los errores se han eliminado de los datos.
 • **Condensando**: los datos se han podido resumir de forma más concisa.
 
-### **Conocimiento**
+#### **Conocimiento**
 
 La mayoría de la gente tiene la sensación intuitiva de que el conocimiento es algo más amplio, más profundo y más rico que los datos y la información.
 
@@ -168,27 +168,20 @@ Se espera que los desarrollos en las bases de datos blockchain, las bases de dat
 ## 4. Ficheros
 
 ### **4.1. Conceptos sobre ficheros.**
-
+>i
 > Un **fichero** es una unidad de **almacenamiento lógico no volátil** que agrupa un conjunto de **informaciones relacionada** entre sí **bajo un mismo nombre**.
-> 
 
-<aside>
-💡
 
 **CUIDADO:** El nombre fichero es utilizado, normalmente en informática, como sinónimo de archivo, aceptándose el nombrado de estas estructuras de ambas formas en casi todos los textos científicos.
 
-</aside>
 
 Es importante comprender los tres conceptos que la definición da: volatilidad, almacenamiento lógico y la relación de la información que en él se mantiene. 
 
 El sistema operativo es el encargado de gestionar el sistema de ficheros y directorios. El sistema de gestión de ficheros ofrece a los usuarios una visión lógica del fichero formada por una cadena ordenada de bytes que tiene asociado un puntero, ocultando la estructura física y organización del mismo en la memoria.
-
-<aside>
 💡
 
 ¿Qué es un puntero? Un puntero es una variable de memoria que contiene la dirección física de una posición/zona de concreta de la memoria del sistema. Puedes leer más sobre este concepto [aquí](https://es.wikipedia.org/wiki/Puntero_(inform%C3%A1tica))
 
-</aside>
 
 Las operaciones de escritura y lectura se realizan a partir de dicho puntero, que queda incrementado en el número de *bytes* de la operación. De esta forma, lecturas o escrituras sucesivas afectan a zonas consecutivas del fichero
 
@@ -217,9 +210,9 @@ A continuación se introducen una serie de esquemas para una mejor comprensión 
 
 #### 4.2.1. Clasificación en función del **tamaño de los registros**
 
-1. **Ficheros con Registros de tamaño fijo** 
+**a.Ficheros con Registros de tamaño fijo** 
 
-![image.png]()
+![image.png](./images/image%201.png)
 
 **b. Ficheros con Registros de tamaño variable**
 
@@ -247,7 +240,9 @@ En estos ficheros, los datos se organizan secuencialmente en el orden en el que 
 | --- |
 | Rápidos para obtener registros contiguos de una base de datos |
 | No hay huecos en el archivo al grabarse los datos seguidos, datos más compactos. |
+
 | **Desventajas** |
+| --- |
 | Consultas muy lentas al tener que leer todos los registros anteriores en el orden del archivo respecto al que queremos leer. Es decir, que si queremos leer el quinto registro, hay que leer los cuatro anteriores. |
 | Algoritmos de lectura y escritura complejos. No es fácil hacer operaciones avanzadas con los datos |
 | No se pueden eliminar registros del fichero (se pueden marcar de manera especial para que no sean tenidos en cuenta, pero no se pueden borrar) |
@@ -267,7 +262,9 @@ En estos ficheros se puede leer una posición concreta directamente; bastará sa
 | Permiten acceso secuencial además del aleatorio (por lo que mejoran el caso anterior) |
 | Permiten tanto leer como escribir sin necesidad de cerrar el archivo |
 | Aptos para organizaciones **relativas directas**, en las que la clave del registro se relaciona con su posición en el archivo |
+
 | **Desventajas** |
+| --- |
 | Salvo en archivos relativos directos, no es apto por sí mismo para usar en bases de datos, ya que los datos se organizan en base a una clave que casi nunca coincide con la posición del registro en el archivo |
 | No se pueden borrar datos (sí marcar para borrado, pero generarán huecos) |
 | Las consultas sobre multitud de registros son más lentas que en el caso anterior |
@@ -285,11 +282,13 @@ Cuando aparece un nuevo registro, se añade al final del archivo, pero los punte
 | El fichero mantiene el orden en el que se añadieron los registros y un segundo orden en base a una clave. Incluso añadiendo más punteros a cada registro podremos establecer más formas de ordenar los registros. |
 | La modificación de datos es más sencillaLa operación de ordenación no requiere reorganizar todo el fichero, sino sólo modificar los punteros |
 | Posee las mismas ventajas que el acceso secuencial y el acceso aleatorio |
+
 | **Desventajas** |
+| --- |
 | No se borran los registros, sino que se marcan para ser ignorados. Por lo que se malgasta espacio |
 | Añadir registros o modificar las claves son operaciones que requieren recalcular los punteros por lo que llevan más tiempo que en los casos anteriores |
 
-#### **d. Ficheros secuenciales indexados**
+**d. Ficheros secuenciales indexados**
 
 Se utilizan dos ficheros para los datos, uno posee los registros almacenados de forma secuencial, pero que permite su acceso aleatorio. El otro posee una tabla con punteros a la posición ordenada de los registros. Ese segundo fichero es el **índice,** una tabla con la ordenación deseada para los registros y la posición que ocupan en el archivo.
 
@@ -310,7 +309,7 @@ Para no tener demasiados archivos en overflow (lo que restaría velocidad ya que
 | **Desventajas** |
 | Para un uso óptimo hay que reorganizar el archivo principal cada cierto tiempo y esta operación es muy costosa ya que hay que reescribir de nuevo y de forma ordenada todo el archivo con el área primeria, además de reorganizar el área de índices y eliminar el fichero de desbordamiento. Es tan costosa que se hace muy poco a menudo, pero en archivos de datos que se modifican muy a menudo, no reorganizar provocaría un área de desbordamiento enorme y perderíamos las ventajas de este modelo. |
 
-#### **e. Ficheros indexado-encadenados**
+**e. Ficheros indexado-encadenados**
 
 Utiliza punteros e índices, es una variante encadenada del caso anterior. Hay un fichero de índices equivalente al comentado en el caso anterior y otro fichero de tipo encadenado con punteros a los siguientes registros. La diferencia está en que este segundo fichero que contiene el área primaria de los datos, no está ordenado secuencialmente, sino que el orden se realizaría recorriendo un puntero (como en el caso de los ficheros secuencialmente encadenados).
 
@@ -381,7 +380,6 @@ Una base de datos constará de los siguientes elementos:
 - **Registros:** donde se almacena la información de cada entidad. Es un conjunto de atributos que contienen los datos que pertenecen a una misma repetición de entidad. En nuestro ejemplo, un registro podría ser: 2123056, Sultán, Podenco, Gris, 23/03/2009.
 - **Campos:** donde se almacenan los atributos de cada registro. Teniendo en cuenta el ejemplo anterior, un campo podría ser el valor Podenco.
 
-<aside>
 🏗️
 
 **Situación de ejemplo**
@@ -390,7 +388,6 @@ Una entidad bancaria necesita una aplicación para poder almacenar información 
 
 Con esta misma aplicación se deben poder realizar operaciones de consulta, actualización, etc., de los datos anteriormente mencionados.
 
-</aside>
 
 Una solución propuesta por un técnico que desconozca los principios de las bases de datos podría ser la siguiente:
 
@@ -429,12 +426,12 @@ modificaciones respecto a las  especificaciones que se proporcionaron inicialmen
 - Se han creado nuevas aplicaciones financieras.
 - Ha aumentado el número de clientes.
 
-<aside>
+
 🔥
 
 **INCONVENIENTES.**
 
-</aside>
+
 
 Tras un cierto tiempo de prueba de la aplicación, se han detectado los siguientes
 problemas:
@@ -455,17 +452,14 @@ momento dado, los tres sacan dinero al mismo tiempo –cada uno 10 €–,
 pero en la cuenta quedan 90 €. El problema está en que los tres acceden a
 la misma información inicial (no hay bloqueos).
 
-<aside>
-💡
 
 **SOLUCIÓN.**
 En los sistemas de archivos aparecen los problemas anteriormente expuestos. Al
 crecer, se hacen más complejos debido a que son rígidos. La solución a todos estos
 problemas es tener un sistema gestor de bases de datos (S.G.B.D.).
 
-</aside>
 
-## 5.1. **Sistemas de Bases de Datos**
+### 5.1. **Sistemas de Bases de Datos**
 
 En este tipo de sistemas, los datos se centralizan en una **base de datos** común a todas las aplicaciones. Un software llamado **Sistema Gestor de Bases de Datos (SGBD)** es el que realmente accede a los datos y se encarga de gestionarlos. Las aplicaciones que creen los programadores, no acceden directamente a los datos, de modo que la base de datos es común para todas las aplicaciones.
 
@@ -492,7 +486,7 @@ Cuando una aplicación modifica un dato, la modificación será visible inmediat
 | **Implantación larga y difícil.** En relación a los puntos anteriores. La adaptación del personal y del equipamiento es mucho más complicada y lleva bastante tiempo. |
 | **Ausencia de estándares totales.** Lo cual significa una excesiva dependencia hacia los sistemas comerciales del mercado. Aunque, hoy en día, hay un funcionamiento base y un lenguaje de gestión (**SQL**) que desde hace tiempo se considera estándar (al menos en las bases de datos relacionales). |
 
-# 6. Sistemas Gestores de Bases de Datos
+## 6. Sistemas Gestores de Bases de Datos
 
  Para poder tratar la información contenida en las bases de datos se utilizan los sistemas gestores de bases de datos o SGBD, también llamados DBMS (DataBase Management System), que ofrecen un conjunto de programas que permiten acceder y gestionar dichos datos.
 
@@ -501,11 +495,11 @@ El objetivo fundamental de los SGBD es proporcionar eficiencia y seguridad a la 
 > **Sistema Gestor de Base de Datos:** Conjunto coordinado de programas, procedimientos, lenguajes, etc., que suministra, tanto a los usuarios no informáticos, como a los analistas, programadores, o al administrador, los medios necesarios para describir y manipular los datos contenidos en la base de datos, manteniendo su integridad, confidencialidad y seguridad.
 > 
 
-## 6.1. Funciones.
+### 6.1. Funciones.
 
 Un SGBD desarrolla tres funciones fundamentales: descripción, manipulación y control o utilización de los datos. A continuación se describen estas tres funciones.
 
-### **a. Función de descripción o definición**
+**a. Función de descripción o definición**
 
 Permite al diseñador de la base de datos crear las estructuras apropiadas para integrar adecuadamente los datos. Se dice que esta función es la que permite definir las tres estructuras de la base de datos (relacionadas con los tres niveles de abstracción de las mismas).
 
@@ -535,7 +529,7 @@ Resumiendo: con la función de definición podremos:
 
 Un lenguaje conocido como **lenguaje de descripción de datos** o **DDL**, es el que permite realizar la función de definición en las bases de datos.
 
-### **b. Función de manipulación**
+**b. Función de manipulación**
 
 Permite cambiar y consultar los **datos** de la base de datos. Se realiza mediante un **lenguaje de modificación de datos** o **DML.** Mediante este lenguaje se puede:
 
@@ -546,13 +540,13 @@ Permite cambiar y consultar los **datos** de la base de datos. Se realiza medi
 
 Actualmente se suele diferenciar la **función de consulta de datos**, diferenciándola del resto de operaciones de manipulación de datos. Se habla de que la función de consulta se realiza con un **lenguaje de consulta de datos** o **DQL** (*Data Query Language*)**.**
 
-### **c. Función de control**
+**c. Función de control**
 
 Mediante esta función los administradores poseen mecanismos para proteger los datos. De manera que se permite a cada usuario ver ciertos datos y otros no, o bien usar ciertos recursos concretos de la base de datos y prohibir otros. Es decir, es la función encargada de establecer los permisos de acceso a los elementos que forman parte de la base de datos.
 
 El lenguaje que implementa esta función es el **lenguaje de control de datos** o **DCL.**
 
-## 6.2. Componentes de un SGBD
+### 6.2. Componentes de un SGBD
 
 Una vez descritas las funciones que un SGBD debe llevar a cabo, imaginarás que un SGBD es un paquete de software complejo que ha de proporcionar servicios relacionados con el almacenamiento y la explotación de los datos de forma eficiente. Para ello, cuenta con una serie de componentes que se detallan a continuación:
 
@@ -579,7 +573,7 @@ Una vez descritas las funciones que un SGBD debe llevar a cabo, imaginarás que 
 
 ![image.png]()
 
-## 6.3. Arquitectura
+### 6.3. Arquitectura
 
 En cualquier software siempre hay dos puntos de vista:
 
@@ -610,7 +604,7 @@ Las dos columnas que aparecen en la imagen reflejan dos fronteras a tener en cue
 - **Independencia Lógica**. Los esquemas de los niveles conceptual y externo son independientes del software concreto de base de datos que usemos; no dependen en absoluto de él. Por ello esos esquemas nos valdrían para cualquier SGBD que utilicemos.
 - **Independencia Física**. La da la barrera entre el esquema físico y el interno e indica que el esquema interno es independiente del hardware concreto que usemos. El esquema físico se diseña en base a un hardware concreto, pero él interno no. Eso permite concentrarse en detalles más conceptuales.
 
-## 6.5. T**ipos de SGBD**
+### 6.5. T**ipos de SGBD**
 
 Como se ha visto en los apartados anteriores, resulta que cada SGBD puede utilizar un modelo diferente para los datos. Por lo que hay modelos conceptuales diferentes según que SGBD utilicemos. Esto da lugar a un diagrama de trabajo para los profesionales de la base de datos que permite saber qué esquemas hay que realizar (y en qué orden) para crear una base de datos.
 
@@ -624,7 +618,7 @@ No obstante existen modelos lógicos comunes, ya que hay SGBD de diferentes tipo
 
 Por lo tanto la diferencia entre los distintos SGBD está en que proporcionan diferentes modelos lógicos.
 
-### **Diferencias entre el modelo lógico y el conceptual**
+**Diferencias entre el modelo lógico y el conceptual**
 
 - El modelo conceptual es independiente del DBMS que se vaya a utilizar. El lógico depende de un **tipo** de SGBD en particular
 - El modelo lógico está más cerca del modelo físico, el que utiliza internamente el ordenador
@@ -644,7 +638,7 @@ Ejemplos de modelos lógicos son:
 
 A continuación se comentarán los modelos lógicos más importantes.
 
-### **Modelo jerárquico**
+**Modelo jerárquico**
 
 Era utilizado por los primeros SGBD, desde que IBM lo definió para su IMS (*Information Management System,* Sistema Administrador de Información) en 1970. Se le llama también modelo en árbol debido a que utiliza una estructura en árbol para organizar los datos.
 
@@ -658,7 +652,7 @@ La forma visual de este modelo es de árbol invertido, en la parte superior est�
 
 Este esquema está en absoluto desuso ya que no es válido para modelar la mayoría de problemas de bases de datos. Su virtud era la facilidad de manejo ya que sólo existe un tipo de relación (padre/hijo) entre los datos; su principal desventaja es que no basta para representar la mayoría de relaciones. Además no mantenía la independencia con la física de la base de datos.
 
-### **Modelo en red (Codasyl)**
+**Modelo en red (Codasyl)**
 
 Es un modelo que ha tenido una gran aceptación (aunque apenas se utiliza actualmente). En especial se hizo popular la forma definida por el estándar Codasyl a principios de los 70 que se convirtió en el modelo en red más utilizado.
 
@@ -670,7 +664,7 @@ En este modelo se pueden representar perfectamente cualquier tipo de relación e
 
 Poseía un lenguaje poderoso de trabajo con la base de datos. El problema era la complejidad para trabajar con este modelo tanto para manipular los datos como programar aplicaciones de acceso a la base de datos. Tampoco mantenía una buena independencia con la física de la base de datos.
 
-### **Modelo relacional**
+**Modelo relacional**
 
 Es el modelo más popular. Los datos se organizan en tablas y estas en columnas y filas de datos. Las tablas se relacionan entre sí para ligar todos los datos.
 
@@ -678,7 +672,7 @@ Se basa en la teoría de conjuntos y consigue una gran separación entre lo conc
 
 El problema es que la simplicidad de manejo y la independencia que consigue se logra a base de un software muy complejo que requiere también un hardware poderoso.
 
-### **Modelo de bases de datos orientadas a objetos**
+**Modelo de bases de datos orientadas a objetos**
 
 Desde la aparición de la programación orientada a objetos (**POO** u **OOP**) se empezó a pensar en bases de datos adaptadas a estos lenguajes. La programación orientada a objetos permite cohesionar datos y procedimientos, haciendo que se diseñen estructuras que poseen datos (**atributos**) en las que se definen los procedimientos (**operaciones**) que pueden realizar con los datos. En las bases orientadas a objetos se utiliza esta misma idea.
 
@@ -690,7 +684,7 @@ Su modelo conceptual se suele diseñar usando la notación **UML** y el lógic
 
 Sus ventajas están en el hecho de usar la misma notación que la de los programas (lo que facilita la tarea de su aprendizaje a los analistas y desarrolladores) y que el significado de los datos es más completo. Lo malo es que no posee un lenguaje tan poderoso como el modelo relacional para manipular datos y metadatos, que tiene más dificultades para establecer reglas a los datos y que al final es más complejo para manejar los datos.
 
-### **Bases de datos objeto-relacionales**
+**Bases de datos objeto-relacionales**
 
 Tratan de ser un híbrido entre el modelo relacional y el orientado a objetos. El problema de las bases de datos orientadas a objetos es que requieren reinvertir capital y esfuerzos de nuevo para convertir las bases de datos relacionales en bases de datos orientadas a objetos. En las bases de datos objeto relacionales se intenta conseguir una compatibilidad relacional dando la posibilidad de integrar mejoras de la orientación a objetos.
 
@@ -698,7 +692,7 @@ Estas bases de datos se basan en el estándar **ISO** **SQL 2000** y los sigu
 
 Las últimas versiones de la mayoría de las clásicas grandes bases de datos relacionales (**Oracle**, **SQL Server**, **DB2**, ...) son objeto relacionales.
 
-### **Bases de datos NoSQL**
+**Bases de datos NoSQL**
 
 En los últimos años ha aparecido todo un género de bases de datos (de varios tipos) que intentan paliar deficiencias detectadas en el modelo relacional.
 

@@ -1,7 +1,8 @@
 ---
 title: Créditos y reconocimientos
 icon: circle-info
-order: -5
+order: -1
 ---
-# Hola a todo el mundo
-Ey ho!
+# Créditos y reconocimientos
+
+- Apuntes de Jorge Sánchez https://jorgesanchez.net/
