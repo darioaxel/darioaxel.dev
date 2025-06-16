@@ -8,10 +8,7 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: darioaxel.dev
-tagline:  Mi nombre es Darío Ureña, soy Ingeniero en Informática.
-          Actualmente estoy dedicado a la enseñanza en Ciclos Formativos de Formación Profesional.
-          Me interesa el desarrollo web y frameworks como Vue y Nuxt, así como todo lo relacionado
-          con el backend y Raspberry Pi, entre otros
+tagline:  Mi nombre es Darío Ureña y soy Profe de FPs e Ingeniero en Informática.         
 actions:
   - text: Docencia
     icon: lightbulb
