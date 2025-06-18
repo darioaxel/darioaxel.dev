@@ -48,19 +48,19 @@ En este módulo estamos utilizando DBeaver, que es una herramienta de edición v
 
 Por ejemplo, para la inserción de datos podemos ir a la pestaña ***Datos*** de la tabla a modificar:
 
-![image.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/image.png)
+![image.png]()
 
 Una vez ahí, hacer click sobre ***Edición - > Añadir registro***
 
-![image.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/image%201.png)
+![image201.png]()
 
 Y podremos introducir manualmente cada uno de los valores del nuevo registro. 
 
-![image.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/image%202.png)
+![image202.png]()
 
 IMPORTANTE! Recuerda que has de grabar los datos con los botones que se muestran en la parte inferior de la tabla:
 
-![image.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/image%203.png)
+![image203.png]()
 
 # 3. Edición de información mediante comandos SQL
 
@@ -553,16 +553,16 @@ Cuando dos transacciones distintas intentan acceder de manera concurrente a los 
 
 - **Dirty Read (Lectura sucia).** Sucede cuando una segunda transacción lee datos que están siendo modificados por una transacción antes de que haga COMMIT. Esto supone dar por buenos datos que aún no sabemos si se formalizaran o serán eliminados mediante un ROLLBACK como en el ejemplo siguiente:
     
-    ![DirtyRead.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/DirtyRead.png)
+    ![DirtyRead.png]()
     
 - **Non‑Repeatable Read (Lectura No Repetible).** Se produce cuando una transacción consulta el mismo dato dos veces durante su vida y, la segunda vez encuentra que el valor del dato ha sido modificado por otra transacción.
     
-    ![diagramas-transacciones-NonRepeatableRead.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/diagramas-transacciones-NonRepeatableRead.png)
+    ![diagramas-transacciones-NonRepeatableRead.png]()
     
 
 - **Phantom Read (Lectura fantasma).** Este error ocurre cuando una transacción ejecuta dos veces una consulta que devuelve un conjunto de filas. El problema se da cuando entre la primera y la segunda ejecución de la consulta aparecen nuevas filas en el conjunto.
     
-    ![PhantonRead.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/PhantonRead.png)
+    ![PhantonRead.png]()
     
 
 ## 6.7 Niveles de aislamiento
@@ -575,11 +575,11 @@ El estándar ANSI/ISO de SQL (SQL92) define cuatro niveles de aislamiento.
 - **Read Committed.** Proporciona dos propiedades:
     - **No Dirty Reads**: La base de datos no va a leer ningún valor de una transacción que no este commited.
         
-        ![NoDirtyReads.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/NoDirtyReads.png)
+        ![NoDirtyReads.png]()
         
     - **No Dirty Writes:** Esto significa que la base de datos aceptará cualquier transacción sobre una fila concreta sobre la que ya se esté ejecutando una transacción. La otra transacción tiene que esperar hasta el momento en que la transacción anterior en las filas se confirme y sólo después de eso, cualquier otra transacción será capaz de realizar una operación de escritura para las filas específicas.
         
-        ![NoDirtyWrites.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/NoDirtyWrites.png)
+        ![NoDirtyWrites.png]()
         
         Sin embargo, en este caso los datos leídos por una transacción pueden ser modificados por otras transacciones, por lo tanto, se pueden dar los problemas *Non‑Repeteable Read* y *Phantom Read*.
         
@@ -634,4 +634,4 @@ Muchos de los ejercicios y diagramas que aparecen en este texto han sido extraí
 
 Este contenido se comparte bajo licencia Creative Commons Reconocimiento - NoComercial- CompartirIgual 4.0 Internacional.
 
-![by-nc-sa.eu.png](Tema%205%20Tratamiento%20de%20datos%2060df3557183242b3a816651f9d567582/by-nc-sa.eu.png)
+![by-nc-sa.eu.png]()

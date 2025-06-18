@@ -11,7 +11,9 @@ export default navbar([
         text: "CFGS DAM/DAW",
         icon: "lightbulb",
         prefix: "dam-daw/", 
-        children: [{ text: "0484 Bases de Datos", link: "basesdatos/" }],       
+        children: [{ text: "0484 Bases de Datos", link: "basesdatos/" },
+          { text: "0613 Desarrollo Web Entorno Servidor", link: "DWES/" },
+        ],       
       },
        {
         text: "CFGS ASIR",
@@ -28,11 +30,15 @@ export default navbar([
         children: [{ text: "Programación para IA", link: "pia/" }],
       },
     ],
-  },
-  "/demo/",
+  }, 
   {
-    text: "V2 Docs",
+    text: "Blog",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/",
+    link: "/blog/",
+  },   
+  {
+    text: "Proyectos",
+    icon: "book",
+    link: "/proyectos/",
   },
 ]);

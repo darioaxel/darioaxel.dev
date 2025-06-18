@@ -212,7 +212,7 @@ A continuación se introducen una serie de esquemas para una mejor comprensión 
 
 **a.Ficheros con Registros de tamaño fijo** 
 
-![image.png](./images/image%201.png)
+![image.png]()
 
 **b. Ficheros con Registros de tamaño variable**
 

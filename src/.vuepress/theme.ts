@@ -112,6 +112,7 @@ export default hopeTheme({
   },
 
   plugins: {
+    blog: true, // Habilita el blog
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
    //  comment: {
@@ -121,7 +122,18 @@ export default hopeTheme({
    //    category: "Announcements",
   //     categoryId: "DIC_kwDOG_Pt2M4COD69",
   //   },
-
+  /*  blog: {
+        type: [
+          {
+            key: "tutorial",
+            filter: (page): boolean =>
+              Boolean(page.filePathRelative?.includes("blog/")),
+            sorter: (pageA, pageB): number =>
+              dateSorter(pageA.frontmatter.date, pageB.frontmatter.date),
+            layout: "Blog",
+          },
+        ],
+    },*/
     components: {
       components: ["Badge", "VPCard"],
     },
