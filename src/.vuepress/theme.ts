@@ -112,28 +112,21 @@ export default hopeTheme({
   },
 
   plugins: {
-    blog: true, // Habilita el blog
-    // Note: This is for testing ONLY!
-    // You MUST generate and use your own comment service in production.
-   //  comment: {
-  //     provider: "Giscus",
-   //    repo: "vuepress-theme-hope/giscus-discussions",
-   //    repoId: "R_kgDOG_Pt2A",
-   //    category: "Announcements",
-  //     categoryId: "DIC_kwDOG_Pt2M4COD69",
-  //   },
-  /*  blog: {
+    blog: {
         type: [
           {
-            key: "tutorial",
+            key: "article",
             filter: (page): boolean =>
-              Boolean(page.filePathRelative?.includes("blog/")),
-            sorter: (pageA, pageB): number =>
-              dateSorter(pageA.frontmatter.date, pageB.frontmatter.date),
-            layout: "Blog",
+              Boolean(page.filePathRelative?.includes("blog/article/")),
+            // Opcional: ordenar por fecha descendente
+            sorter: (pageA, pageB) =>
+              new Date(pageB.frontmatter.date).getTime() -
+              new Date(pageA.frontmatter.date).getTime(),
+            // Opcional: título de la página de listado
+            frontmatter: () => ({ title: "Artículos del Blog" }),
           },
         ],
-    },*/
+    },
     components: {
       components: ["Badge", "VPCard"],
     },
