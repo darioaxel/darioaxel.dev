@@ -126,7 +126,15 @@ Lenguaje de propósito general diseñado para el desarrollo de páginas web din�
 En un principio, lenguaje no tipado.
 Actualmente en la versión 8. Se recomienda al menos utilizar una versión superior a la 7.0.
 Código embebido en el HTML
-Instrucciones entre etiquetas <?php y ?>
+Instrucciones entre etiquetas 
+```php
+<?
+``` 
+php y 
+
+```php
+?>
+```
 Para generar codigo dentro de PHP, podemos usar la instrucción echo
 Multitud de librerías y frameworks:
 Laravel, Symfony, Codeigniter, Zend
@@ -243,7 +251,7 @@ Hola Mundo¶
 Y como no, nuestro primer ejemplo será un Hola Mundo en PHP.
 
 Si nombramos el archivo como index.php, al acceder a http://localhost automáticamente cargará el resultado:
-
+```php
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -256,7 +264,7 @@ Si nombramos el archivo como index.php, al acceder a http://localhost automátic
         echo "Hola Mundo";
     ?>
 </body>
-</html>
+```
 Referencias¶
 Curso de introducción a Docker, por Sergi García Barea : https://sergarb1.github.io/CursoIntroduccionADocker/
 Artículo Arquitecturas Web y su evolución
@@ -270,8 +278,10 @@ Busca tres ofertas de trabajo de desarrollo de software en Infojobs en la provin
 
 Empresa + puesto + frameworks PHP + requísitos + sueldo + enlace a la oferta.
 Una vez arrancado el servicio PHP (mediante XAMPP o Docker), crea el archivo info.php y añade el siguiente fragmento de código:
-
+```php
 <?php phpinfo() ?>
+```
+
 Anota los valores de:
 Versión de PHP
 Loaded Configuration File
