@@ -112,20 +112,14 @@ export default hopeTheme({
   },
 
   plugins: {
-    blog: {
-        type: [
-          {
-            key: "article",
-            filter: (page): boolean =>
-              Boolean(page.filePathRelative?.includes("blog/article/")),
-            // Opcional: ordenar por fecha descendente
-            sorter: (pageA, pageB) =>
-              new Date(pageB.frontmatter.date).getTime() -
-              new Date(pageA.frontmatter.date).getTime(),
-            // Opcional: título de la página de listado
-            frontmatter: () => ({ title: "Artículos del Blog" }),
-          },
-        ],
+    blog: {     
+       type: [
+        {
+          key: "article",
+            filter: ({ frontmatter}) => frontmatter.type === "article",     
+        
+        },
+      ]
     },
     components: {
       components: ["Badge", "VPCard"],

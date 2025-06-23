@@ -3,6 +3,7 @@ title: "Creación de una API REST con Django y Docker"
 date: 2025-06-20
 category: [Blog]
 tag: [Docker, Django, API Rest, Python]
+type: article
 ---
 # Creación de una API REST con Django y Docker
 
