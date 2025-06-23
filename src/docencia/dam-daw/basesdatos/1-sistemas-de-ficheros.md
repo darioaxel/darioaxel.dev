@@ -1,6 +1,6 @@
 ---
 title: UT01 Sistemas de Ficheros
-icon: circle-info
+icon: material-symbols:book-5-outline
 ---
 # Tema 1: Sistemas de almacenamiento de información
 

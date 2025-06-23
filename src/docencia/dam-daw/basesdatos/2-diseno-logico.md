@@ -1,6 +1,6 @@
 ---
 title: UT02 Diseño lógico de Bases de Datos
-icon: circle-info
+icon: material-symbols:book-5-outline
 ---
 # 1. Modelos de datos
 

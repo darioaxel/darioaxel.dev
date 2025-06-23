@@ -1,6 +1,6 @@
 ---
 title: UT04 Realización de consultas
-icon: circle-info
+icon: material-symbols:book-5-outline
 ---
 
 # Tema 4: Realización de consultas

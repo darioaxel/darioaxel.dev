@@ -1,6 +1,6 @@
 ---
 title: Bibliografía
-icon: circle-info
+icon: material-symbols:local-library-outline
 order: -5
 ---
 # Bibliografía

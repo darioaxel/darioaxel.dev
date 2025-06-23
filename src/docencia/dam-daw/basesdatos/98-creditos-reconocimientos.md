@@ -1,6 +1,6 @@
 ---
 title: Créditos y reconocimientos
-icon: circle-info
+icon: cib:creative-commons
 order: -1
 ---
 # Créditos y reconocimientos
