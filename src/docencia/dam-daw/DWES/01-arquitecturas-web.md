@@ -5,12 +5,69 @@ icon: circle-info
 
 # UT01 Arquitecturas Web
 
-## Patrones y tipos de arquitecturas en Servidor.
 ::: info ¿Qué vamos a aprender en esta unidad?
 En esta unidad vamos a aprender los conceptos básicos de las arquitecturas web. Para ello empezaremos analizando los principios SOLID, los patrones de diseño y las arquitecturas de software más comunes. 
 También veremos cómo se relacionan con el desarrollo de aplicaciones web del lado del servidor (backend) y cómo se utilizan en la práctica.
 :::
 
+## Introducción
+
+En el mundo de la informática establecemos que una ***página web estática*** es aquella cuyo contenido no cambia en función de la interacción del usuario o del contexto. Estas páginas están compuestas principalmente por archivos HTML y CSS, que se almacenan en un servidor y se envían tal cual al navegador del usuario cuando éste las solicita. El servidor simplemente "sirve" estos archivos, sin realizar ningún procesamiento adicional.
+
+Este modelo es el más sencillo que se puede establecer para una página web. Sin embargo, las aplicaciones web modernas requieren una mayor interactividad y personalización, lo que nos lleva a la necesidad de páginas web dinámicas. 
+Estas páginas pueden cambiar su contenido en función de la interacción del usuario, datos de bases de datos o servicios externos.
+
+
+Las aplicaciones web modernas se basan en la arquitectura cliente-servidor. En este modelo, uno o varios clientes (normalmente navegadores web) realizan peticiones al servidor, que responde enviando los recursos solicitados, tal y como podemos ver en el siguiente esquema. 
+
+![Arquitectura Cliente-Servidor](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/1920px-Client-server-model.svg.png)
+
+El cliente (navegador) realiza peticiones al servidor, habitualmente usando el protocolo HTTP (puertos 80 o 443 para HTTPS). El servidor procesa la solicitud y responde con el contenido adecuado.
+
+Existen dos formas principales de generar páginas dinámicas:
+
+ * **Procesamiento en el servidor:** El servidor genera el contenido dinámico utilizando lenguajes como PHP, Python, Ruby, Java, .NET, etc., y puede acceder a bases de datos o servicios externos para construir la respuesta.
+ * **Consumo de servicios externos desde el cliente:** El navegador ejecuta JavaScript para solicitar datos a servicios REST de terceros y actualizar la página dinámicamente, sin necesidad de recargarla por completo.
+
+
+## Arquitecturas Web: Capas Físicas y Lógicas
+
+Las arquitecturas web no son tan sencillas como un simple servidor y una serie de clientes. Mediante una estructura de capas o layers, se intenta minorar la complejidad que una aplicación real tiene de forma que sean mantenibles, comprensibles por los desarrolladores y testeables.
+En realidad, las aplicaciones web modernas suelen estar organizadas en capas físicas y lógicas que facilitan su desarrollo, mantenimiento y escalabilidad. 
+
+### Capas Físicas (Tiers)
+Una capa física o tier corresponde a un componente hardware separado dentro de la arquitectura. Por ejemplo, en una arquitectura de tres capas físicas (3-tier) se distinguen:
+Servidor web
+
+Servidor de aplicaciones
+
+Servidor de base de datos
+
+En entornos modernos, es común utilizar clusters de servidores en una misma capa para lograr tolerancia a fallos y escalabilidad.
+
+### Capas Lógicas (Layers)
+Las capas lógicas organizan el código según su función:
+
+Presentación: Interfaz de usuario.
+
+Negocio/Aplicación: Lógica de negocio y procesamiento.
+
+Datos/Persistencia: Gestión y almacenamiento de datos.
+
+Cada capa puede implementarse con diferentes tecnologías y lenguajes, permitiendo flexibilidad y modularidad.
+
+### Modelo MVC (Modelo-Vista-Controlador)
+El patrón MVC (Model-View-Controller) es una arquitectura que separa la lógica de negocio, la gestión de datos y la presentación visual:
+
+ - ***Modelo:*** Gestiona los datos y su acceso, normalmente conectado a una base de datos.
+
+ - ***Controlador:*** Procesa las acciones del usuario y coordina la interacción entre el modelo y la vista.
+
+ - ***Vista:*** Presenta la información al usuario y recoge sus interacciones.
+
+Esta separación facilita la organización, el mantenimiento y la reutilización del código. 
+
+## Patrones y tipos de arquitecturas en Servidor.
 
 ### Principios SOLID
 Los cinco principios SOLID son un conjunto de reglas y mejores prácticas para el diseño de software orientado a objetos. 
@@ -227,78 +284,7 @@ Las API web son fundamentales en el desarrollo de aplicaciones modernas, ya que 
 <!-->
 Arquitecturas Web¶
 Duración y criterios de evaluación
-Las arquitecturas web definen la forma en que las páginas de un sitio web están estructuradas y enlazadas entre sí. Las aplicaciones web se basan en en modelo cliente-servidor.
 
-Cliente / Servidor¶
-
-Arquitectura Cliente Servidor
-Uno o varios cliente acceden a un servidor. La nuevas arquitecturas sustituyen el servidor por un balanceador de carga de manera que N servidores dan respuesta a M clientes.
-
-En las aplicaciones web, el cliente es el navegador web.
-
-El cliente hace la petición (request normalmente mediante el protocolo GET mediante el puerto 80/443) y el servidor responde (response).
-
-Página web dinámica¶
-Si la página web únicamente contiene HTML + CSS se considera una página estática. Para generar una página dinámica, donde el contenido cambia, a día de hoy tenemos dos alternativas:
-
-Utilizar un lenguaje de servidor que genere el contenido, ya sea mediante el acceso a una BD o servicios externos.
-Utilizar servicios REST de terceros invocados desde JS.
-
-Página web dinámica
-Las tecnologías empleadadas (y los perfiles de desarrollo asociados) para la generación de páginas dinámicas son:
-
-Perfil	Herramienta	Tecnología
-Front-end / cliente	Navegador Web	HTML + CSS + JavaScript
-Back-end / servidor	Servidor Web + BBDD	PHP, Python, Ruby, Java / JSP, .Net / .asp
-Perfil Full-stack
-
-En las ofertas de trabajo cuando hacen referencia a un Full-stack developer, están buscando un perfil que domina tanto el front-end como el back-end.
-
-Single Page Application¶
-A día de hoy, gran parte del desarrollo web está transicionando de una arquitectura web cliente-servidor clásica donde el cliente realiza una llamada al backend, por una arquitectura SPA donde el cliente gana mucho mayor peso y sigue una programación reactiva que accede a servicios remotos REST que realizan las operaciones (comunicandose mediante JSON).
-
-
-Arquitectura tradicional vs SPA
-Arquitectura de 3 capas¶
-Hay que distinguir entre capas físicas (tier) y capas lógicas (layer).
-
-Tier¶
-Capa física de una arquitectura. Supone un nuevo elemento hardware separado físicamente. Las capas físicas más alejadas del cliente están más protegidas, tanto por firewalls como por VPN.
-
-Ejemplo de arquitectura en tres capas físicas (3 tier):
-
-Servidor Web
-Servidor de Aplicaciones
-Servidor de base de datos
-
-Arquitectura de tres capas físicas
-Cluster en tiers
-
-No confundir las capas con la cantidad de servidores. Actualmente se trabaja con arquitecturas con múltiples servidores en una misma capa física mediante un cluster, para ofrecer tolerancia a errores y escalabilidad horizontal.
-
-Layer¶
-Arquitectura de tres capas físicas
-
-En cambio, las capas lógicas (layers) organizan el código respecto a su funcionalidad:
-
-Presentación
-Negocio / Aplicación / Proceso
-Datos / Persistencia
-Como se observa, cada una de las capas se puede implementar con diferentes lenguajes de programación y/o herramientas.
-
-
-Arquitectura de tres capas físicas en tres lógicas
-MVC¶
-MVC
-
-Model-View-Controller o Modelo-Vista-Controlador es un modelo de arquitectura que separa los datos y la lógica de negocio respecto a la interfaz de usuario y el componente encargado de gestionar los eventos y las comunicaciones.
-
-Al separar los componentes en elementos conceptuales permite reutilizar el código y mejorar su organización y mantenimiento. Sus elementos son:
-
-Modelo: representa la información y gestiona todos los accesos a ésta, tanto consultas como actualizaciones provenientes, normalmente, de una base de datos. Se accede via el controlador.
-Controlador: Responde a las acciones del usuario, y realiza peticiones al modelo para solicitar información. Tras recibir la respuesta del modelo, le envía los datos a la vista.
-Vista: Presenta al usuario de forma visual el modelo y los datos preparados por el controlador. El usuario interactura con la vista y realiza nuevas peticiones al controlador.
-Lo estudiaremos en más detalle al profundizar en el uso de los frameworks PHP.
 
 Decisiones de diseño¶
 ¿Qué tamaño tiene el proyecto?
