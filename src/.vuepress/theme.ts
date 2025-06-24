@@ -13,7 +13,7 @@ export default hopeTheme({
 
   logo: "assets/image/space-invader-icon.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "github.com/darioaxel/darioaxel.dev",
 
   docsDir: "src",
 

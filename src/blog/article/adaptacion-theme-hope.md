@@ -20,3 +20,13 @@ usos en los módulos.
 * Docker y Docker Compose: para contenerización
 
 ## Inicialización del Proyecto
+
+
+### Estructura para la gestión de imágenese dentro de la documentación
+
+Las imágenes se almacenan en el árbol de carpetas dentro de `src/.vuepress/public/images` y se referencian en la documentación con la ruta relativa. 
+Por ejemplo, para una imagen llamada `01_image_1.png` dentro del módulo ***Bases de Datos***, se utilizaría:
+
+```markdown
+![Descripción de la imagen](/images/bbdd/01_image_1.png)
+``` 

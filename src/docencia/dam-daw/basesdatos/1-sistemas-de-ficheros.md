@@ -3,6 +3,7 @@ title: UT01 Sistemas de Ficheros
 icon: material-symbols:book-5-outline
 ---
 # Tema 1: Sistemas de almacenamiento de información
+![Prueba imagen en /images/bbdd](/images/bbdd/01_image_1.png)
 
 **RESULTADOS DE APRENDIZAJE**
 > *R.A.1.* Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de sistemas gestores.
@@ -212,7 +213,7 @@ A continuación se introducen una serie de esquemas para una mejor comprensión 
 
 **a.Ficheros con Registros de tamaño fijo** 
 
-![image.png]()
+![image.png](./)
 
 **b. Ficheros con Registros de tamaño variable**
 

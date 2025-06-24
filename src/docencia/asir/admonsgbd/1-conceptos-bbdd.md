@@ -1,8 +1,7 @@
-
-
-
-
-
+---
+title: UT00 Conceptos básicos
+icon: material-symbols:book-5-outline
+---
 
 Lenguajes SQL: DCL y extensión procedimental
 # Unidad 1: Gestión de usuarios

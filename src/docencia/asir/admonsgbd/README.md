@@ -1,8 +1,8 @@
 ---
-title: CFGS ASIR
+title: CFGS Administración de Sistemas Gestores de Bases de Datos
 icon: laptop-code
 category:
-  - ASIR
+  - Docencia
 ---
 
 # Administración de Sistemas Gestores de Bases de Datos
