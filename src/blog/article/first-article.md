@@ -3,6 +3,7 @@ title: "Mi primer artículo!!"
 date: 2025-06-20
 category: [Blog]
 tag: [VuePress, JavaScript]
+type: article
 ---
 
 # Mi primer artículo!!

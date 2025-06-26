@@ -112,14 +112,10 @@ export default hopeTheme({
   },
 
   plugins: {
-    blog: {     
-       type: [
-        {
-          key: "article",
-            filter: ({ frontmatter}) => frontmatter.type === "article",     
-        
-        },
-      ]
+    blog: {   
+      filter: (page) =>
+        page.frontmatter.type === "article",
+    article: "/blog/article/",    
     },
     components: {
       components: ["Badge", "VPCard"],
